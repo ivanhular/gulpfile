@@ -1,0 +1,89 @@
+$pcolor:#a9a9a9;
+$w:#ffffff;
+@import "reset";
+
+body{
+  @extend %montserrat;
+  @include font-size(14px,16px,320px,1600px);
+}
+.ry-container{
+  @include section-contain(1600px,1700px,90%);
+}
+
+.ry-heading{
+  h1{
+    @include font-size(32px,48px,320px,1600px);
+  }
+  h2{
+    @include font-size(26px,36px,320px,1600px);
+  }
+  h3{
+    @include font-size(22px,28px,320px,1600px);
+  }
+  h4{
+    @include font-size(18px,18px,320px,1600px);
+  }
+}
+
+.ry-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ry-social{
+           width: auto;
+           .social-inner-wrap {
+             display: flex;
+             justify-content: flex-end;
+           li {
+             width: 27px;
+             height: 27px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-right: 10px;
+             transition: all 400ms ease;
+             &:last-child {
+               margin-right: 0;
+             }
+             &:hover {
+               transform: scale(1.2);
+               a {
+                 background: $pcolor !important;
+                 border: $pcolor;
+               }
+             }
+             a {
+               color: $w;
+               font-size: 11px;
+               background: rgba($pcolor,.4);
+               border-radius: 50%;
+               height: 100%;
+               width: 100%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               transition: all 400ms ease;
+               &:before{
+                 font-family: fontawesome !important;
+               }
+             }
+         }
+  }
+}
+
+.ry-btn{
+       text-align: center;
+       position: relative;
+       border-radius: 0;
+       padding: 10px 20px;
+       display: inline-block;
+       color:$w;
+       @extend %montserrat;
+       &:focus , &:hover {
+         outline: 0;
+       }
+       &.ry-btn-primary{
+              background: $pcolor;
+       }
+}
