@@ -20,16 +20,18 @@ import autoreload  from 'autoreload-gulp';
 
 
 var settings = {
-  compileAmp:true, // Enable if AMP compilation SASS default Folder
+  compileAmp:false, // Enable if AMP compilation SASS default Folder
 
   folderName:'BASE SITE SASS/VET/SVP', // Set Custom Path Folder Name
+  // folderName:'CUSTOM BUILD/eidon', // Set Custom Path Folder Name
   sourceFile:'main.scss', // Set Custom Source
   compiledCSSpath:'main.css',  // Set Compiled CSS
 
   // SET PROXY FOR LIVE RELOAD
-  proxy:'https://admin.roya.com/sites/Site-76363599-20b1-4cb1-9927-df4ad6f81d6c/index-amp',
+  proxy:'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/contact.html',
+  // proxy:'https://admin.roya.com/sites/Site-ea196c38-50dd-48b9-83c4-fd1272688f00/',
   // SET Existing file to replace
-  fileReplacePath:'https://admin.roya.com/sites/Site-76363599-20b1-4cb1-9927-df4ad6f81d6c/styles/edits.css',
+  fileReplacePath:'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/styles/site.css',
 };
 
 /**********************************************************************/
