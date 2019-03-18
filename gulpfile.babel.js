@@ -22,16 +22,19 @@ import autoreload  from 'autoreload-gulp';
 var settings = {
   compileAmp:false, // Enable if AMP compilation SASS default Folder
 
-  folderName:'BASE SITE SASS/VET/SVP', // Set Custom Path Folder Name
-  // folderName:'CUSTOM BUILD/eidon', // Set Custom Path Folder Name
+  folderName:'BASE SITE SASS/OPTO/SCSS-opto-4', // Set Custom Path Folder Name
   sourceFile:'main.scss', // Set Custom Source
   compiledCSSpath:'main.css',  // Set Compiled CSS
+  //sourceFile:'amp.scss', // Set Custom Source
+  //compiledCSSpath:'amp.css',  // Set Compiled CSS
 
   // SET PROXY FOR LIVE RELOAD
-  proxy:'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/contact.html',
-  // proxy:'https://admin.roya.com/sites/Site-ea196c38-50dd-48b9-83c4-fd1272688f00/',
+  proxy:'https://admin.roya.com/sites/Site-7a0d3da8-f378-4031-88ec-bb2824640453/',
   // SET Existing file to replace
-  fileReplacePath:'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/styles/site.css',
+  fileReplacePath:'https://admin.roya.com/sites/Site-7a0d3da8-f378-4031-88ec-bb2824640453/styles/color_scheme_1.css',
+  // Remove files for testing
+  fileRemovePath1: 'https://admin.roya.com/sites/Site-7a0d3da8-f378-4031-88ec-bb2824640453/styles/site.css',
+  fileRemovePath2: 'https://admin.roya.com/sites/Site-7a0d3da8-f378-4031-88ec-bb2824640453/styles/default.css'
 };
 
 /**********************************************************************/
@@ -69,7 +72,7 @@ gulp.task('compile', function() {
     }
   }))
   .pipe(sass({
-  // outputStyle: 'expanded',
+  //outputStyle: 'expanded',
   outputStyle: 'nested',
   // outputStyle: 'compressed',
   }))
@@ -90,6 +93,18 @@ browserSync.init({
         match: new RegExp(settings.fileReplacePath),
         fn: function() {
             return `/styles/${settings.compiledCSSpath}`;
+        }
+    },
+      {
+        match: new RegExp(settings.fileRemovePath1),
+        fn: function() {
+            return ``;
+        }
+    },
+      {
+        match: new RegExp(settings.fileRemovePath2),
+        fn: function() {
+            return ``;
         }
       }
   ]
