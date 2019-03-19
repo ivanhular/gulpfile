@@ -20,21 +20,22 @@ import autoreload  from 'autoreload-gulp';
 
 
 var settings = {
-  compileAmp:false, // Enable if AMP compilation SASS default Folder
+  compileAmp:false, // Enable if AMP compilation
 
   folderName:'BASE SITE SASS/test', // Set Custom Path Folder Name
-  sourceFile:'main.scss', // Set Custom Source
-  compiledCSSpath:'main.css',  // Set Compiled CSS
-  //sourceFile:'amp.scss', // Set Custom Source
-  //compiledCSSpath:'amp.css',  // Set Compiled CSS
 
   // SET PROXY FOR LIVE RELOAD
   proxy:'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021',
+
+  compiledCSSpath:'default.css',  // Set Compiled CSS
+  compiledCSSpath2:'site.css',  // Set Compiled CSS
+  compiledCSSpath3:'color-scheme.css',  // Set Compiled CSS
+
   // SET Existing file to replace
-  fileReplacePath:'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/styles/color_scheme_1.css',
+  fileReplacePath:`${this.proxy}/styles/default.css`,
   // Remove files for testing
-  fileRemovePath1: 'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/styles/site.css',
-  fileRemovePath2: 'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/styles/default.css'
+  fileRemovePath1: `${proxy}/styles/site.css`,
+  fileRemovePath2: `${proxy}/styles/color-scheme1.css`
 };
 
 /**********************************************************************/
@@ -98,13 +99,13 @@ browserSync.init({
       {
         match: new RegExp(settings.fileRemovePath1),
         fn: function() {
-            return ``;
+            return `/styles/${settings.folderName}/${settings.compiledCSSpath2}`;
         }
     },
       {
         match: new RegExp(settings.fileRemovePath2),
         fn: function() {
-            return ``;
+            return `/styles/${settings.folderName}/${settings.compiledCSSpath3}`;
         }
       }
   ]
