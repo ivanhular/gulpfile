@@ -17,25 +17,29 @@ import gcmq from 'gulp-group-css-media-queries';
 import browserSync from 'browser-sync';
 // browserSync from('browser-sync').create();
 import autoreload  from 'autoreload-gulp';
+import splitFiles  from 'gulp-split-files';
 
+
+
+//Set Proxy server
+var proxy = "https://admin.roya.com/sites/Site-ac712f76-d550-4684-bd64-1430ec6caa9a";
 
 var settings = {
+  targetFile:"about.html",
+  globalIncludes:'sass/includes/', // Set Global Includes
   compileAmp:false, // Enable if AMP compilation
-
-  folderName:'BASE SITE SASS/test', // Set Custom Path Folder Name
+  folderName:'BASE SITE SASS/TEMPLATE', // Set Custom Path Folder Name
 
   // SET PROXY FOR LIVE RELOAD
-  proxy:'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021',
-
   compiledCSSpath:'default.css',  // Set Compiled CSS
   compiledCSSpath2:'site.css',  // Set Compiled CSS
   compiledCSSpath3:'color-scheme.css',  // Set Compiled CSS
 
   // SET Existing file to replace
-  fileReplacePath:`${this.proxy}/styles/default.css`,
-  // Remove files for testing
+  fileReplacePath:`${proxy}/styles/default.css`,
   fileRemovePath1: `${proxy}/styles/site.css`,
-  fileRemovePath2: `${proxy}/styles/color-scheme1.css`
+  fileRemovePath2: `${proxy}/styles/color_scheme_1.css`
+
 };
 
 /**********************************************************************/
@@ -65,17 +69,19 @@ gulp.task('images', function() {
 
 // Compile Styles
 gulp.task('compile', function() {
-  return gulp.src([`sass/${settings.folderName}/*.scss`])
+  // return gulp.src([`sass/${settings.folderName}/*.scss`])
+  return gulp.src([`sass/${settings.folderName}/main.scss`])
   .pipe(plumber({
     errorHandler: function(error) {
       console.log(error.message);
       this.emit('end');
     }
-  }))
+   }))
   .pipe(sass({
   //outputStyle: 'expanded',
   outputStyle: 'nested',
   // outputStyle: 'compressed',
+  includePaths: [`${settings.globalIncludes}`]
   }))
   .pipe(gulpIf(settings.compileAmp, gcmq())) //enable if AMP
   .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'ff 17', 'opera 12.1', 'ios 6', 'android 4'))
@@ -86,7 +92,7 @@ gulp.task('compile', function() {
 
 gulp.task('browserSync', function(){
 browserSync.init({
-  proxy: settings.proxy,
+  proxy: `${proxy}/${settings.targetFile}`,
   files: ['./dist'],
   serveStatic: ['./dist'],
   rewriteRules: [
@@ -111,16 +117,24 @@ browserSync.init({
   ]
 });
 
-gulp.watch(`sass/${settings.folderName}/*.scss`, gulp.series('compile')).on('change',
-    gulp.parallel('compile',browserSync.reload)
+gulp.watch(`sass/${settings.folderName}/*.scss`, gulp.series('compile',"split")).on('change',
+    gulp.parallel('compile',[browserSync.reload])
 );
 
+});
+
+//Split Compile CSS to multiple Files
+gulp.task("split", function () {
+  return gulp.src(`dist/styles/${settings.folderName}/main.css`)
+  .pipe(splitFiles())
+  .pipe(gulp.dest(`dist/styles/${settings.folderName}`));
 });
 
 
 gulp.task('default',  gulp.series('browserSync',function(){
     gulp.series('gulp-autoreload');
 }));
+
 
 
 /**

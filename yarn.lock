@@ -2900,6 +2900,13 @@ gulp-sass@^4.0.2:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
+gulp-split-files@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/gulp-split-files/-/gulp-split-files-1.2.3.tgz#f2d2b4809b6b4945e2499840011145995f099698"
+  dependencies:
+    through2 "^2.0.1"
+    vinyl "^2.0.0"
+
 gulp-uglify@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/gulp-uglify/-/gulp-uglify-3.0.1.tgz#8d3eee466521bea6b10fd75dff72adf8b7ea2d97"

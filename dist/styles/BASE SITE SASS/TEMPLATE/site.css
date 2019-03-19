@@ -1,0 +1,210 @@
+/* ------- START SITE.CSS -------*/
+body div, body p, body .search-result, body .description, .ry-form label, .ry-table .ry-row .ry-td:first-child .ry-lbl, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #menu_container .mm-listview .mob-menu a, .mm-panel .mob-menu a, #ry-sidebar #searchfield input, #ry-sidebar .ry-link-wrp .ry-link-item a, #ry-sidebar .ry-contact-table .ry-row .ry-td, #ry-sidebar .social-wrap .lbl, body, .ry-btn {
+  font-family: 'Questrial', sans-serif !important; }
+
+body h1, body h2, body h3, body h4, body h5, body h6, .ry-accordion .ry-heading, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar .ry-sb-title, #ry-sidebar .ry-sb-cta .ry-cta-wrp a, #ry-pg-body .review-item h5, #ry-pg-body #srvc-box .service-items .service-info h4, .ry-modal .ry-heading {
+  font-family: 'Playfair Display', serif !important; }
+
+.ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900; }
+
+body ul li:before, body ol li:before, .ry-form .input-name .form-group:before, .ry-form .input-email .form-group:before, .ry-form .input-phone .form-group:before, .ry-form .input-message .form-group:before, .ry-social .social-inner-wrap li a:before, .ry-accordion .ry-heading:after, .ry-slider-nav .button-prev:after, .ry-slider-nav .button-next:after, .ry-icon:before, #ry-sidebar .ry-link-wrp .ry-link-item:after, #ry-sidebar #accordion .ry-link-item > a:after, #ry-sidebar #accordion .ry-link-item.open > a:after, #ry-sidebar #accordion .ry-link-item ul a:before {
+  font-family: "fontawesome" !important; }
+
+.ry-modal .ry-heading {
+  font-size: calc(30px + 25 * ((100vw - 320px) / 1280));
+  font-weight: 700;
+  margin-bottom: 50px;
+  line-height: 65px; }
+  @media screen and (max-width: 320px) {
+    .ry-modal .ry-heading {
+      font-size: 30px; } }
+  @media screen and (min-width: 1600px) {
+    .ry-modal .ry-heading {
+      font-size: 55px; } }
+  @media (max-width: 991px) {
+    .ry-modal .ry-heading {
+      text-align: center;
+      line-height: normal; } }
+
+#ry-pg-banner .ry-container, #ry-pg-body .ry-container {
+  max-width: 67.70833%;
+  margin: 0 auto;
+  float: none; }
+  @media (min-width: 992px) {
+    #ry-pg-banner .ry-container, #ry-pg-body .ry-container {
+      max-width: 1300px; } }
+  @media screen and (min-width: 992px) and (max-width: 1440px) {
+    #ry-pg-banner .ry-container, #ry-pg-body .ry-container {
+      max-width: 90%; } }
+  @media (max-width: 991px) {
+    #ry-pg-banner .ry-container, #ry-pg-body .ry-container {
+      max-width: 90%; } }
+
+.ry-btn {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  font-size: calc(16px + 4 * ((100vw - 500px) / 940));
+  border-radius: 35px;
+  text-transform: uppercase;
+  z-index: 10;
+  padding: 14px 40px;
+  letter-spacing: 3px; }
+  @media screen and (max-width: 500px) {
+    .ry-btn {
+      font-size: 16px; } }
+  @media screen and (min-width: 1440px) {
+    .ry-btn {
+      font-size: 20px; } }
+  @media (max-width: 767px) {
+    .ry-btn {
+      letter-spacing: 1px;
+      padding: 14px 30px; } }
+  @media (max-width: 500px) {
+    .ry-btn {
+      padding: 14px 20px; } }
+  .ry-btn:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 40px;
+    -webkit-transform: rotateX(-90deg) scale(1);
+            transform: rotateX(-90deg) scale(1);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transition: -webkit-transform cubic-bezier(0.19, 1, 0.22, 1) 0.7s;
+    transition: -webkit-transform cubic-bezier(0.19, 1, 0.22, 1) 0.7s;
+    transition: transform cubic-bezier(0.19, 1, 0.22, 1) 0.7s;
+    transition: transform cubic-bezier(0.19, 1, 0.22, 1) 0.7s, -webkit-transform cubic-bezier(0.19, 1, 0.22, 1) 0.7s; }
+  .ry-btn:hover:before {
+    -webkit-transform: rotateX(-20deg) scale(1);
+            transform: rotateX(-20deg) scale(1); }
+  .ry-btn.ry-btn-primary {
+    letter-spacing: 3px; }
+    .ry-btn.ry-btn-primary:hover {
+      -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+              box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1); }
+  .ry-btn.ry-btn-secondary {
+    letter-spacing: 3px; }
+    .ry-btn.ry-btn-secondary:hover {
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+              box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); }
+
+.ry-social .social-inner-wrap li:hover {
+  -webkit-transform: unset;
+          transform: unset; }
+  .ry-social .social-inner-wrap li:hover a:before, .ry-social .social-inner-wrap li:hover a i {
+    -webkit-transform: rotateY(-360deg);
+            transform: rotateY(-360deg); }
+
+.ry-social .social-inner-wrap li a:before, .ry-social .social-inner-wrap li a i {
+  -webkit-transition: all ease 0.9s;
+  transition: all ease 0.9s;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg); }
+
+.ry-form.ry-form-box {
+  background-color: #fff;
+  padding: 60px 7% 45px;
+  margin: 10px 0 80px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .ry-form.ry-form-box:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-image: url(https://s3.amazonaws.com/static.organiclead.com/Site-31d61482-8c99-49ba-aa86-d48519073e8c/svp_contact_shadow.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2; }
+
+.ry-form input[type="text"] {
+  border: solid 1px #ddd !important; }
+
+.ry-form textarea {
+  border: solid 1px #ddd !important; }
+
+.ry-search {
+  margin-bottom: 50px; }
+  .ry-search input {
+    border-radius: 40px !important;
+    padding-left: 20px; }
+    .ry-search input::-webkit-input-placeholder {
+      font-size: 18px; }
+    .ry-search input::-moz-placeholder {
+      font-size: 18px; }
+    .ry-search input:-ms-input-placeholder {
+      font-size: 18px; }
+    .ry-search input:-moz-placeholder {
+      font-size: 18px; }
+    .ry-search input::-ms-input-placeholder {
+      font-size: 18px; }
+  .ry-search button.btn-primary {
+    border-top-right-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    background: none !important;
+    font-size: 1.1rem;
+    width: 100px !important; }
+
+.ry-menu .ry-nav li.dropdown .dropdown-menu.hover {
+  top: 80px; }
+
+.ry-menu .ry-nav li.dropdown .dropdown-toggle span {
+  display: block;
+  margin-left: 15px; }
+
+@media (max-width: 991px) {
+  #ry-pg-body .ry-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
+#ry-pg-body .ry-left {
+  width: 65%; }
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    #ry-pg-body .ry-left {
+      width: 60%; } }
+  @media (max-width: 991px) {
+    #ry-pg-body .ry-left {
+      width: 100%; } }
+
+#ry-pg-body .ry-right {
+  width: 25%; }
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    #ry-pg-body .ry-right {
+      width: 30%; } }
+  @media (max-width: 991px) {
+    #ry-pg-body .ry-right {
+      width: 100%;
+      max-width: 350px; } }
+
+#ry-pg-banner .ry-bnr-wrp {
+  height: 460px; }
+  #ry-pg-banner .ry-bnr-wrp:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .1;
+    left: 0;
+    top: 0;
+    z-index: 2; }
+
+/* ---- MODULES ----*/
+/* ------- END SITE.CSS -------*/

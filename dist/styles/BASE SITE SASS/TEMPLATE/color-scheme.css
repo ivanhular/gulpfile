@@ -1,0 +1,36 @@
+/* ------- START COLOR-SCHEME ------- */
+/******* PLACE COLOR SETTINGS OVERRIDES FOR SECTIONS*******/
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, body ul.pagination li:before, body ol.pagination li:before, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary:hover {
+  background: #106479; }
+
+.primary-c, body a, body a:hover, body ul li:before, body ol li:before, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, #ry-pg-body .ry-left a:not(.ry-btn), #ry-pg-body #srvc-box .service-items .service-info h4, .ry-accordion .ry-heading.ui-state-active {
+  color: #106479; }
+
+.secondary-bg, #ry-sidebar .ry-sb-title, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, #ry-pg-body #srvc-box.style1 .img-wrapper, .mobile-container, .mobile-container.fixed, .ry-btn.ry-btn-secondary, .ry-btn:before {
+  background: #e7981c; }
+
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active {
+  color: #e7981c; }
+
+.gray, .ry-search button.btn-primary {
+  color: #666666; }
+
+.gray-bg {
+  background: #666666; }
+
+body .search-result, body .description, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, #ry-pg-body .review-item h5, body {
+  color: #666666; }
+
+.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar #searchfield button, #ry-sidebar .ry-sb-title, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .white-c, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a {
+  color: #fff; }
+
+.mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .white-bg, #ry-pg-banner .ry-bnr-wrp:before {
+  background: #fff; }
+
+.black-c {
+  color: #000; }
+
+.black-bg {
+  background: #000; }
+
+/* ------- END COLOR-SCHEME ------- */
