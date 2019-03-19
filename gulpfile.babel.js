@@ -22,19 +22,19 @@ import autoreload  from 'autoreload-gulp';
 var settings = {
   compileAmp:false, // Enable if AMP compilation SASS default Folder
 
-  folderName:'BASE SITE SASS/OPTO/SCSS-opto-4', // Set Custom Path Folder Name
+  folderName:'BASE SITE SASS/test', // Set Custom Path Folder Name
   sourceFile:'main.scss', // Set Custom Source
   compiledCSSpath:'main.css',  // Set Compiled CSS
   //sourceFile:'amp.scss', // Set Custom Source
   //compiledCSSpath:'amp.css',  // Set Compiled CSS
 
   // SET PROXY FOR LIVE RELOAD
-  proxy:'https://admin.roya.com/sites/Site-7a0d3da8-f378-4031-88ec-bb2824640453/',
+  proxy:'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021',
   // SET Existing file to replace
-  fileReplacePath:'https://admin.roya.com/sites/Site-7a0d3da8-f378-4031-88ec-bb2824640453/styles/color_scheme_1.css',
+  fileReplacePath:'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/styles/color_scheme_1.css',
   // Remove files for testing
-  fileRemovePath1: 'https://admin.roya.com/sites/Site-7a0d3da8-f378-4031-88ec-bb2824640453/styles/site.css',
-  fileRemovePath2: 'https://admin.roya.com/sites/Site-7a0d3da8-f378-4031-88ec-bb2824640453/styles/default.css'
+  fileRemovePath1: 'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/styles/site.css',
+  fileRemovePath2: 'https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021/styles/default.css'
 };
 
 /**********************************************************************/
@@ -64,7 +64,7 @@ gulp.task('images', function() {
 
 // Compile Styles
 gulp.task('compile', function() {
-  return gulp.src([`sass/${settings.folderName}/${settings.sourceFile}`])
+  return gulp.src([`sass/${settings.folderName}/*.scss`])
   .pipe(plumber({
     errorHandler: function(error) {
       console.log(error.message);
@@ -79,7 +79,7 @@ gulp.task('compile', function() {
   .pipe(gulpIf(settings.compileAmp, gcmq())) //enable if AMP
   .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'ff 17', 'opera 12.1', 'ios 6', 'android 4'))
   .pipe(gulpIf(settings.compileAmp, cssnano({normalizeUrl:{stripWWW:false}}))) //enable if AMP
-  .pipe(gulp.dest('dist/styles'))
+  .pipe(gulp.dest(`dist/styles/${settings.folderName}`))
   // .pipe(browserSync.stream())
 });
 
@@ -92,7 +92,7 @@ browserSync.init({
       {
         match: new RegExp(settings.fileReplacePath),
         fn: function() {
-            return `/styles/${settings.compiledCSSpath}`;
+            return `/styles/${settings.folderName}/${settings.compiledCSSpath}`;
         }
     },
       {
