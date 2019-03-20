@@ -23,12 +23,14 @@ import splitFiles  from 'gulp-split-files';
 
 //Set Proxy server
 var proxy = "https://admin.roya.com/sites/Site-ac712f76-d550-4684-bd64-1430ec6caa9a";
+// var proxy = "https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021";
 
 var settings = {
   targetFile:"about.html",
   globalIncludes:'sass/includes/', // Set Global Includes
   compileAmp:false, // Enable if AMP compilation
-  folderName:'BASE SITE SASS/TEMPLATE', // Set Custom Path Folder Name
+  folderName:'BASE SITE SASS/OPTO/OPTO THEME 4', // Set Custom Path Folder Name
+  // folderName:'BASE SITE SASS/VET/SVP', // Set Custom Path Folder Name
 
   // SET PROXY FOR LIVE RELOAD
   compiledCSSpath:'default.css',  // Set Compiled CSS
