@@ -26,21 +26,27 @@ var proxy = "https://admin.roya.com/sites/Site-ac712f76-d550-4684-bd64-1430ec6ca
 // var proxy = "https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021";
 
 var settings = {
-  targetFile:"blog.html",
+  targetFile:"index-amp",
   globalIncludes:'sass/includes/', // Set Global Includes
-  compileAmp:false, // Enable if AMP compilation
+  /*Note: If you wish to compile AMP and use browserSync
+    Set this link on your amp-layout
+    <link href="{root}styles/amp.css" rel="stylesheet">
+   */
+  compileAmp:true, // Enable if AMP compilation
   folderName:'BASE SITE SASS/OPTO/OPTO THEME 4', // Set Custom Path Folder Name
   // folderName:'BASE SITE SASS/VET/SVP', // Set Custom Path Folder Name
 
   // SET PROXY FOR LIVE RELOAD
-  compiledCSSpath:'default.css',  // Set Compiled CSS
+  compiledCSSpath1:'default.css',  // Set Compiled CSS
   compiledCSSpath2:'site.css',  // Set Compiled CSS
   compiledCSSpath3:'color-scheme.css',  // Set Compiled CSS
+  compiledCSSpath4:'amp.css',  // Set Compiled CSS
 
   // SET Existing file to replace
-  fileReplacePath:`${proxy}/styles/default.css`,
-  fileRemovePath1: `${proxy}/styles/site.css`,
-  fileRemovePath2: `${proxy}/styles/color_scheme_1.css`
+  fileReplacePath1:`${proxy}/styles/default.css`,
+  fileRemovePath2: `${proxy}/styles/site.css`,
+  fileRemovePath3: `${proxy}/styles/color_scheme_1.css`,
+  fileRemovePath4: `${proxy}/styles/amp.css`
 
 };
 
@@ -68,11 +74,16 @@ gulp.task('images', function() {
     .pipe(gulp.dest('dist/images'))
 });
 /**********************************************************************/
-
+let setFile = ()=> {
+  if(settings.compileAmp){
+    return gulp.src([`sass/${settings.folderName}/amp.scss`])
+  }else{
+    return gulp.src([`sass/${settings.folderName}/main.scss`])
+  }
+}
 // Compile Styles
 gulp.task('compile', function() {
-  // return gulp.src([`sass/${settings.folderName}/*.scss`])
-  return gulp.src([`sass/${settings.folderName}/main.scss`])
+  setFile()
   .pipe(plumber({
     errorHandler: function(error) {
       console.log(error.message);
@@ -91,32 +102,47 @@ gulp.task('compile', function() {
   .pipe(gulp.dest(`dist/styles/${settings.folderName}`))
   // .pipe(browserSync.stream())
 });
-
+let setRewriteRules = ()=> {
+  var obj;
+  if(settings.compileAmp){
+    obj = [
+        {
+          match: new RegExp(settings.fileRemovePath4),
+          fn: function() {
+              return `/styles/${settings.folderName}/${settings.compiledCSSpath4}`;
+          }
+      },
+    ];
+  }else{
+    obj = [
+        {
+          match: new RegExp(settings.fileRemovePath1),
+          fn: function() {
+              return `/styles/${settings.folderName}/${settings.compiledCSSpath1}`;
+          }
+      },
+        {
+          match: new RegExp(settings.fileRemovePath2),
+          fn: function() {
+              return `/styles/${settings.folderName}/${settings.compiledCSSpath2}`;
+          }
+      },
+        {
+          match: new RegExp(settings.fileRemovePath3),
+          fn: function() {
+              return `/styles/${settings.folderName}/${settings.compiledCSSpath3}`;
+          }
+        }
+    ];
+  }
+  return obj;
+}
 gulp.task('browserSync', function(){
 browserSync.init({
   proxy: `${proxy}/${settings.targetFile}`,
   files: ['./dist'],
   serveStatic: ['./dist'],
-  rewriteRules: [
-      {
-        match: new RegExp(settings.fileReplacePath),
-        fn: function() {
-            return `/styles/${settings.folderName}/${settings.compiledCSSpath}`;
-        }
-    },
-      {
-        match: new RegExp(settings.fileRemovePath1),
-        fn: function() {
-            return `/styles/${settings.folderName}/${settings.compiledCSSpath2}`;
-        }
-    },
-      {
-        match: new RegExp(settings.fileRemovePath2),
-        fn: function() {
-            return `/styles/${settings.folderName}/${settings.compiledCSSpath3}`;
-        }
-      }
-  ]
+  rewriteRules: setRewriteRules()
 });
 
 gulp.watch(`sass/${settings.folderName}/*.scss`, gulp.series('compile',"split")).on('change',
