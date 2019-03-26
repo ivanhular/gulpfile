@@ -26,13 +26,13 @@ var proxy = "https://admin.roya.com/sites/Site-ac712f76-d550-4684-bd64-1430ec6ca
 // var proxy = "https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021";
 
 var settings = {
-  targetFile:"index-amp",
+  targetFile:"",
   globalIncludes:'sass/includes/', // Set Global Includes
   /*Note: If you wish to compile AMP and use browserSync
     Set this link on your amp-layout
     <link href="{root}styles/amp.css" rel="stylesheet">
    */
-  compileAmp:true, // Enable if AMP compilation
+  compileAmp:false, // Enable if AMP compilation
   folderName:'BASE SITE SASS/OPTO/OPTO THEME 4', // Set Custom Path Folder Name
   // folderName:'BASE SITE SASS/VET/SVP', // Set Custom Path Folder Name
 
@@ -43,7 +43,7 @@ var settings = {
   compiledCSSpath4:'amp.css',  // Set Compiled CSS
 
   // SET Existing file to replace
-  fileReplacePath1:`${proxy}/styles/default.css`,
+  fileRemovePath1:`${proxy}/styles/default.css`,
   fileRemovePath2: `${proxy}/styles/site.css`,
   fileRemovePath3: `${proxy}/styles/color_scheme_1.css`,
   fileRemovePath4: `${proxy}/styles/amp.css`
@@ -145,21 +145,21 @@ browserSync.init({
   rewriteRules: setRewriteRules()
 });
 
-gulp.watch(`sass/${settings.folderName}/*.scss`, gulp.series('compile',"split")).on('change',
-    gulp.parallel('compile',[browserSync.reload])
+gulp.watch(`sass/${settings.folderName}/*.scss`, gulp.series('compile')).on('change',
+    gulp.series('compile',[browserSync.reload],'split')
 );
 
 });
 
 //Split Compile CSS to multiple Files
-gulp.task("split", function () {
+gulp.task('split', function () {
   return gulp.src(`dist/styles/${settings.folderName}/main.css`)
   .pipe(splitFiles())
   .pipe(gulp.dest(`dist/styles/${settings.folderName}`));
 });
 
 
-gulp.task('default',  gulp.series('browserSync',function(){
+gulp.task('default',  gulp.series('browserSync','split',function(){
     gulp.series('gulp-autoreload');
 }));
 

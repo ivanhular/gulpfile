@@ -1,6 +1,7 @@
 /* ------- START COLOR-SCHEME ------- */
 /******* PLACE COLOR SETTINGS OVERRIDES FOR SECTIONS*******/
 /***** INSIDE PAGE ****/
+/***** AMP ******/
 .primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, #ry-sidebar .ry-sb-title, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, body ul.pagination li:before, body ol.pagination li:before, .ry-btn, .ry-btn.ry-btn-primary, .module-14 .item .card .slide-text-wrap .btn-wrap .btn.btn-primary, .module-19 .btn.btn-primary, .module-19 .btn.ry-btn-primary, .module-20 .btn.btn-primary, .module-20 .btn.ry-btn-primary, .module-21 .btn.btn-primary, .module-21 .btn.ry-btn-primary, .module-22 .btn.btn-primary, .module-22 .btn.ry-btn-primary, .pagination li.active > a, .ry-btn.ry-btn-secondary:hover, #ry-sidebar #accordion .ry-drop-nav ul, #menu_container, .module-16 #footer-row1 .social-inner-wrap li, .module-14 .item .card .slide-text-wrap .btn-wrap .btn:hover, .module-17, .module-17 .title-box, .module-19 .card-holder .img-frame .anchor .anchor-link, .module-20 .slider-controller .ry-slider-nav .slider-btn:hover, .module-20 #ry-section-request-appointment #ry-slider.req-appointment-slider .ry-slider-nav .slider-btn, .module-21 #ry-slider.req-appointment-slider .ry-slider-nav .slider-btn {
   background: #763131; }
 

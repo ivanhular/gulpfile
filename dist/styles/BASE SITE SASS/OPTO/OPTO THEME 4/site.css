@@ -2285,10 +2285,12 @@ body.default #ry-section-header {
   .module-23 p {
     font-size: 17px; }
 
-/*default - testimonials*/
+/*default - testimonials 1*/
 .module-24 .ry-each {
   padding: 60px 0 95px;
   border-bottom: 1px solid #dbe1e6; }
+  .module-24 .ry-each:last-child {
+    border-bottom: 0 !important; }
   @media (max-width: 991px) {
     .module-24 .ry-each {
       padding: 20px; } }
