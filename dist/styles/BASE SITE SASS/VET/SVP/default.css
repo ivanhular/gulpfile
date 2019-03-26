@@ -82,7 +82,8 @@ body {
         font-size: 50px; } }
     @media (max-width: 767px) {
       body h1 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 45px; } }
   body h2 {
     font-weight: 700;
     text-transform: capitalize;
@@ -97,7 +98,8 @@ body {
         font-size: 50px; } }
     @media (max-width: 767px) {
       body h2 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 45px; } }
   body h3 {
     font-weight: 700;
     text-transform: capitalize;
@@ -112,7 +114,8 @@ body {
         font-size: 45px; } }
     @media (max-width: 767px) {
       body h3 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 30px; } }
   body h4 {
     font-weight: 700;
     text-transform: capitalize;
@@ -127,7 +130,8 @@ body {
         font-size: 40px; } }
     @media (max-width: 767px) {
       body h4 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 30px; } }
   body h5 {
     font-weight: 700;
     text-transform: capitalize;
@@ -142,7 +146,8 @@ body {
         font-size: 35px; } }
     @media (max-width: 767px) {
       body h5 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 30px; } }
   body h6 {
     font-weight: 700;
     text-transform: capitalize;
@@ -157,7 +162,8 @@ body {
         font-size: 30px; } }
     @media (max-width: 767px) {
       body h6 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 30px; } }
   body div {
     text-align: justify;
     font-size: calc(18px + 2 * ((100vw - 500px) / 940)); }
@@ -389,8 +395,10 @@ body {
     padding-left: 50px; }
 
 .ry-form .input-message {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  position: relative; }
   .ry-form .input-message .form-group {
+    position: relative;
     margin-bottom: 0; }
     .ry-form .input-message .form-group:before {
       content: "\f040";
@@ -398,7 +406,9 @@ body {
       color: rgba(0, 0, 0, 0.2);
       position: absolute;
       top: 30px;
-      left: 27px; }
+      left: 27px;
+      display: block;
+      z-index: 10; }
   .ry-form .input-message textarea {
     padding-left: 50px; }
 
@@ -590,6 +600,9 @@ body {
 
 .modal-dialog {
   z-index: 99999; }
+
+.mm-slideout {
+  z-index: unset; }
 
 .ry-el-bg img {
   visibility: hidden; }

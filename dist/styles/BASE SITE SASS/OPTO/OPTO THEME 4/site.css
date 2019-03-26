@@ -2290,7 +2290,7 @@ body.default #ry-section-header {
   padding: 60px 0 95px;
   border-bottom: 1px solid #dbe1e6; }
   .module-24 .ry-each:last-child {
-    border-bottom: 0 !important; }
+    border-bottom: 0; }
   @media (max-width: 991px) {
     .module-24 .ry-each {
       padding: 20px; } }

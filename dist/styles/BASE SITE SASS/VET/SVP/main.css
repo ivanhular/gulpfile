@@ -83,7 +83,8 @@ body {
         font-size: 50px; } }
     @media (max-width: 767px) {
       body h1 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 45px; } }
   body h2 {
     font-weight: 700;
     text-transform: capitalize;
@@ -98,7 +99,8 @@ body {
         font-size: 50px; } }
     @media (max-width: 767px) {
       body h2 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 45px; } }
   body h3 {
     font-weight: 700;
     text-transform: capitalize;
@@ -113,7 +115,8 @@ body {
         font-size: 45px; } }
     @media (max-width: 767px) {
       body h3 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 30px; } }
   body h4 {
     font-weight: 700;
     text-transform: capitalize;
@@ -128,7 +131,8 @@ body {
         font-size: 40px; } }
     @media (max-width: 767px) {
       body h4 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 30px; } }
   body h5 {
     font-weight: 700;
     text-transform: capitalize;
@@ -143,7 +147,8 @@ body {
         font-size: 35px; } }
     @media (max-width: 767px) {
       body h5 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 30px; } }
   body h6 {
     font-weight: 700;
     text-transform: capitalize;
@@ -158,7 +163,8 @@ body {
         font-size: 30px; } }
     @media (max-width: 767px) {
       body h6 {
-        text-align: center; } }
+        text-align: center;
+        line-height: 30px; } }
   body div {
     text-align: justify;
     font-size: calc(18px + 2 * ((100vw - 500px) / 940)); }
@@ -390,8 +396,10 @@ body {
     padding-left: 50px; }
 
 .ry-form .input-message {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  position: relative; }
   .ry-form .input-message .form-group {
+    position: relative;
     margin-bottom: 0; }
     .ry-form .input-message .form-group:before {
       content: "\f040";
@@ -399,7 +407,9 @@ body {
       color: rgba(0, 0, 0, 0.2);
       position: absolute;
       top: 30px;
-      left: 27px; }
+      left: 27px;
+      display: block;
+      z-index: 10; }
   .ry-form .input-message textarea {
     padding-left: 50px; }
 
@@ -591,6 +601,9 @@ body {
 
 .modal-dialog {
   z-index: 99999; }
+
+.mm-slideout {
+  z-index: unset; }
 
 .ry-el-bg img {
   visibility: hidden; }
@@ -2063,10 +2076,10 @@ body.default {
   color: #fff; }
 
 /* hero */
-#ry-section-hero .ry-caption h2 {
+#ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h1 {
   color: #fff; }
   @media (max-width: 767px) {
-    #ry-section-hero .ry-caption h2 {
+    #ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h1 {
       color: #106479; } }
 
 #ry-section-hero .ry-caption h3 {
@@ -2340,7 +2353,7 @@ body.default {
 .gray-bg {
   background: #666666; }
 
-.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar #searchfield button, #ry-sidebar .ry-sb-title, #ry-pg-banner .ry-bnr-wrp .ry-text, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .white-c, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, #ry-pg-body .ry-text ul.pagination li.active a, #ry-pg-body .ry-text ol.pagination li.active a, .ry-btn, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title a, .module-4 .ry-each a, #ry-section-header .ry-toggle-options .hd-phn a, #ry-section-header .ry-toggle-options .btn-header-search i {
+.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar #searchfield button, #ry-sidebar .ry-sb-title, #ry-pg-banner .ry-bnr-wrp .ry-text, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .white-c, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, #ry-pg-body .ry-text ul.pagination li.active a, #ry-pg-body .ry-text ol.pagination li.active a, .ry-btn, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title a, .module-4 .ry-each a, #ry-section-header .ry-toggle-options .hd-phn a, #ry-section-header .ry-toggle-options .btn-header-search i, #ry-section-header-mobile .ry-apt-wrap .ry-btn-primary {
   color: #fff; }
 
 .ry-accordion .ry-heading, .ry-accordion .ry-heading.ui-state-active, #menu_container .hamburger .hamburger-inner, #menu_container .hamburger .hamburger-inner:after, #menu_container .hamburger .hamburger-inner:before, #ry-pg-body .rev-form-box, #ry-pg-body .formBox, #ry-pg-body #srvc-box .service-items, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .white-bg, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title:after, #ry-sidebar .ry-sb-articles .ry-circle:before, #ry-pg-banner .ry-bnr-wrp:before, #ry-sidebar #searchfield button {
@@ -2359,7 +2372,7 @@ body.default {
 body div, body p, .ry-form label, .ry-table .ry-row .ry-td:first-child .ry-lbl, #menu_container .mm-listview .mob-menu a, .mm-panel .mob-menu a, #ry-sidebar #searchfield input, #ry-sidebar .ry-link-wrp .ry-link-item a, #ry-sidebar .ry-contact-table .ry-row .ry-td, #ry-sidebar .social-wrap .lbl, #ry-pg-body .ry-text p, #ry-pg-body .ry-text .search-result, #ry-pg-body .ry-text .description, #ry-pg-body .teambox .team-item p, #ry-pg-body .result-box a, #ry-pg-body .primary-btn, #ry-pg-body .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, body, body.default h1 span, body.default h2 span, body.default h3 span, body.default h4 span, .ry-btn, #ry-sidebar .ry-social .ry-sb-title p, #ry-section-hero .ry-caption h3, #ry-section-footer .ry-copyright h5, #ry-section-footer .ry-copyright a {
   font-family: 'Questrial', sans-serif !important; }
 
-body h1, body h2, body h3, body h4, body h5, body h6, .ry-accordion .ry-heading, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar .ry-sb-title, #ry-sidebar .ry-sb-cta .ry-cta-wrp a, #ry-pg-body .ry-text h2, #ry-pg-body .ry-text h3, #ry-pg-body .ry-text h4, #ry-pg-body .ry-text h5, #ry-pg-body .btn-primary, #ry-pg-body .review-item h5, #ry-pg-body #srvc-box .service-items .service-info h4, #ry-pg-body .teambox h3, #ry-pg-body .teambox .team-item h4, .ry-modal .ry-heading, #ry-section-welcome .ry-heading h1, #ry-section-services .ry-heading h2, #ry-section-reviews .ry-heading h2, #ry-section-financing .ry-each h3, #ry-section-team .ry-heading h2, #ry-section-blog h2, #ry-pg-banner .ry-bnr-wrp .ry-text, #ry-section-hero .ry-caption h2 {
+body h1, body h2, body h3, body h4, body h5, body h6, .ry-accordion .ry-heading, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar .ry-sb-title, #ry-sidebar .ry-sb-cta .ry-cta-wrp a, #ry-pg-body .ry-text h2, #ry-pg-body .ry-text h3, #ry-pg-body .ry-text h4, #ry-pg-body .ry-text h5, #ry-pg-body .btn-primary, #ry-pg-body .review-item h5, #ry-pg-body #srvc-box .service-items .service-info h4, #ry-pg-body .teambox h3, #ry-pg-body .teambox .team-item h4, .ry-modal .ry-heading, #ry-section-welcome .ry-heading h1, #ry-section-services .ry-heading h2, #ry-section-reviews .ry-heading h2, #ry-section-financing .ry-each h3, #ry-section-team .ry-heading h2, #ry-section-blog h2, #ry-pg-banner .ry-bnr-wrp .ry-text, #ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h1 {
   font-family: 'Playfair Display', serif !important; }
 
 .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before {
@@ -3654,6 +3667,18 @@ body p, body {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between; } }
+    #ry-section-header .ry-main-nav .ry-nav .primary > a {
+      padding: 10px 15px; }
+      @media screen and (min-width: 992px) and (max-width: 1206px) {
+        #ry-section-header .ry-main-nav .ry-nav .primary > a {
+          font-size: 14px;
+          padding: 0; } }
+      @media screen and (min-width: 1207px) and (max-width: 1440px) {
+        #ry-section-header .ry-main-nav .ry-nav .primary > a {
+          font-size: 16px; } }
+      @media (max-width: 1910px) {
+        #ry-section-header .ry-main-nav .ry-nav .primary > a {
+          font-size: 16px; } }
     #ry-section-header .ry-main-nav .ry-nav > li {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3671,8 +3696,7 @@ body p, body {
       padding: 0; } }
   #ry-section-header .ry-main-nav a {
     color: #333;
-    font-size: 18px;
-    padding: 10px 15px; }
+    font-size: 18px; }
     @media screen and (min-width: 992px) and (max-width: 1206px) {
       #ry-section-header .ry-main-nav a {
         font-size: 14px;
@@ -3990,7 +4014,7 @@ body p, body {
         z-index: 999; }
     #ry-section-header .ry-toggle-options .social-search {
       width: auto;
-      overflow-x: hidden;
+      overflow: hidden;
       margin: 0 10px 0 10px;
       height: 35px;
       display: -webkit-box;
@@ -4227,6 +4251,16 @@ body p, body {
           font-size: 35px; } }
       @media screen and (min-width: 1920px) {
         #ry-section-hero .ry-caption h2 {
+          font-size: 80px; } }
+    #ry-section-hero .ry-caption h1 {
+      font-size: calc(35px + 45 * ((100vw - 320px) / 1600));
+      font-weight: 800;
+      margin-bottom: 30px; }
+      @media screen and (max-width: 320px) {
+        #ry-section-hero .ry-caption h1 {
+          font-size: 35px; } }
+      @media screen and (min-width: 1920px) {
+        #ry-section-hero .ry-caption h1 {
           font-size: 80px; } }
     #ry-section-hero .ry-caption p {
       line-height: 30px; }
@@ -4864,7 +4898,7 @@ body p, body {
     background-size: cover;
     background-position: center center;
     height: 290px;
-    width: 25%;
+    width: 18%;
     -webkit-box-shadow: 15px 0px 20px rgba(102, 102, 102, 0.1);
             box-shadow: 15px 0px 20px rgba(102, 102, 102, 0.1);
     z-index: 2;
@@ -4897,7 +4931,7 @@ body p, body {
     padding: 0 5%; }
     @media (min-width: 992px) {
       #ry-section-team .ry-text-box {
-        width: 75%;
+        width: 82%;
         height: 290px; } }
     @media (max-width: 991px) {
       #ry-section-team .ry-text-box {
@@ -5014,7 +5048,7 @@ body p, body {
     position: relative;
     max-width: 120px;
     bottom: auto;
-    left: 55%;
+    left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%); }
     @media (max-width: 991px) {

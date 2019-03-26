@@ -145,8 +145,8 @@ browserSync.init({
   rewriteRules: setRewriteRules()
 });
 
-gulp.watch(`sass/${settings.folderName}/*.scss`, gulp.series('compile')).on('change',
-    gulp.series('compile',[browserSync.reload],'split')
+gulp.watch(`sass/${settings.folderName}/*.scss`, gulp.parallel('compile')).on('change',
+    gulp.parallel('compile','split',[browserSync.reload])
 );
 
 });
@@ -159,7 +159,7 @@ gulp.task('split', function () {
 });
 
 
-gulp.task('default',  gulp.series('browserSync','split',function(){
+gulp.task('default',  gulp.series('browserSync',function(){
     gulp.series('gulp-autoreload');
 }));
 

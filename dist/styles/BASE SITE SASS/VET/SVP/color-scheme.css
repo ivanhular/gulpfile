@@ -46,10 +46,10 @@
   color: #fff; }
 
 /* hero */
-#ry-section-hero .ry-caption h2 {
+#ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h1 {
   color: #fff; }
   @media (max-width: 767px) {
-    #ry-section-hero .ry-caption h2 {
+    #ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h1 {
       color: #106479; } }
 
 #ry-section-hero .ry-caption h3 {
@@ -323,7 +323,7 @@
 .gray-bg {
   background: #666666; }
 
-.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar #searchfield button, #ry-sidebar .ry-sb-title, #ry-pg-banner .ry-bnr-wrp .ry-text, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .white-c, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, #ry-pg-body .ry-text ul.pagination li.active a, #ry-pg-body .ry-text ol.pagination li.active a, .ry-btn, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title a, .module-4 .ry-each a, #ry-section-header .ry-toggle-options .hd-phn a, #ry-section-header .ry-toggle-options .btn-header-search i {
+.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar #searchfield button, #ry-sidebar .ry-sb-title, #ry-pg-banner .ry-bnr-wrp .ry-text, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .white-c, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, #ry-pg-body .ry-text ul.pagination li.active a, #ry-pg-body .ry-text ol.pagination li.active a, .ry-btn, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title a, .module-4 .ry-each a, #ry-section-header .ry-toggle-options .hd-phn a, #ry-section-header .ry-toggle-options .btn-header-search i, #ry-section-header-mobile .ry-apt-wrap .ry-btn-primary {
   color: #fff; }
 
 .ry-accordion .ry-heading, .ry-accordion .ry-heading.ui-state-active, #menu_container .hamburger .hamburger-inner, #menu_container .hamburger .hamburger-inner:after, #menu_container .hamburger .hamburger-inner:before, #ry-pg-body .rev-form-box, #ry-pg-body .formBox, #ry-pg-body #srvc-box .service-items, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .white-bg, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title:after, #ry-sidebar .ry-sb-articles .ry-circle:before, #ry-pg-banner .ry-bnr-wrp:before, #ry-sidebar #searchfield button {
