@@ -732,8 +732,7 @@ body p, body {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 20px; }
+          justify-content: space-between; }
   @media (max-width: 767px) {
     .module-1 {
       -webkit-box-orient: vertical;
@@ -746,16 +745,8 @@ body p, body {
   @media (max-width: 767px) {
     .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6, .module-1 p {
       text-align: center; } }
-  .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6 {
-    font-size: calc(20px + 6 * ((100vw - 320px) / 1280)); }
-    @media screen and (max-width: 320px) {
-      .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6 {
-        font-size: 20px; } }
-    @media screen and (min-width: 1600px) {
-      .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6 {
-        font-size: 26px; } }
   .module-1 .ry-box-left {
-    width: 25%; }
+    width: 30%; }
     @media (max-width: 500px) {
       .module-1 .ry-box-left {
         width: 50%; } }
@@ -763,7 +754,7 @@ body p, body {
       .module-1 .ry-box-left img {
         margin-bottom: 20px; } }
   .module-1 .ry-box-right {
-    width: 70%; }
+    width: 65%; }
     @media (max-width: 767px) {
       .module-1 .ry-box-right {
         width: 100%; } }
@@ -1842,10 +1833,11 @@ body p, body {
     display: none; }
   @media (min-width: 992px) {
     #ry-section-hero .ry-slide:before {
+      content: "";
       position: absolute;
       width: 100%;
       height: 100%;
-      background: rgba(16, 100, 121, 0.2);
+      background: rgba(34, 36, 61, 0.2);
       top: 0;
       left: 0; } }
   #ry-section-hero .ry-caption {
@@ -1972,8 +1964,8 @@ body p, body {
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
       /* FF3.6-15 */
       /* Chrome10-25,Safari5.1-6 */
-      background: -webkit-gradient(linear, left top, left bottom, from(rgba(231, 152, 28, 0)), color-stop(20%, rgba(231, 152, 28, 0)));
-      background: linear-gradient(to bottom, rgba(231, 152, 28, 0) 0%, rgba(231, 152, 28, 0) 20%);
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(176, 195, 235, 0)), color-stop(20%, rgba(176, 195, 235, 0)));
+      background: linear-gradient(to bottom, rgba(176, 195, 235, 0) 0%, rgba(176, 195, 235, 0) 20%);
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
     #ry-section-cta .ry-each:hover {
       -webkit-box-shadow: 0px 0px 98px 0px rgba(0, 0, 0, 0.2);
@@ -2004,23 +1996,13 @@ body p, body {
 #ry-section-welcome {
   position: relative;
   z-index: 1; }
-  #ry-section-welcome.no-video {
-    padding-bottom: 200px; }
-    @media screen and (min-width: 992px) and (max-width: 1200px) {
-      #ry-section-welcome.no-video {
-        padding-bottom: 100px; } }
-    @media (max-width: 991px) {
-      #ry-section-welcome.no-video {
-        padding-bottom: 100px; } }
-    #ry-section-welcome.no-video .ry-video {
-      display: none; }
   #ry-section-welcome:before {
     position: absolute;
     top: 0;
     left: 0;
     content: '';
     width: 100%;
-    height: 100%;
+    height: 840px;
     background-image: url(https://s3.amazonaws.com/static.organiclead.com/Site-8b307a40-8585-4078-a37b-3aabf89ad021/home/welcomebg.png);
     background-size: cover;
     background-position: bottom; }
@@ -2037,7 +2019,7 @@ body p, body {
     position: relative; }
     @media (min-width: 992px) {
       #ry-section-welcome .ry-video {
-        top: 120px; } }
+        top: 100px; } }
   #ry-section-welcome .ry-video-container {
     position: relative;
     width: 100%;
@@ -2056,11 +2038,6 @@ body p, body {
 /* services */
 #ry-section-services {
   padding-top: 220px; }
-  #ry-section-services.no-video {
-    padding-top: 115px; }
-    @media screen and (min-width: 992px) and (max-width: 1200px) {
-      #ry-section-services.no-video {
-        padding-top: 100px; } }
   @media (max-width: 991px) {
     #ry-section-services {
       padding-top: 60px; } }
@@ -2272,10 +2249,7 @@ body p, body {
         bottom: 0; } }
   @media screen and (min-width: 992px) and (max-width: 1800px) {
     #ry-section-services #ry-each2 svg {
-      bottom: -35px; } }
-  @media screen and (min-width: 992px) and (max-width: 1600px) {
-    #ry-section-services #ry-each2 svg {
-      bottom: -24px; } }
+      bottom: -30px; } }
   @media screen and (min-width: 992px) and (max-width: 1199px) {
     #ry-section-services #ry-each2 svg {
       bottom: -18px; } }
@@ -2290,13 +2264,7 @@ body p, body {
   #ry-section-services #ry-each3 {
     max-width: 485px; }
     #ry-section-services #ry-each3 .ry-text {
-      bottom: 55px; }
-      @media screen and (min-width: 992px) and (max-width: 1800px) {
-        #ry-section-services #ry-each3 .ry-text {
-          bottom: 40px; } }
-      @media screen and (min-width: 992px) and (max-width: 1300px) {
-        #ry-section-services #ry-each3 .ry-text {
-          bottom: 30px; } }
+      bottom: 20px; }
       @media (max-width: 991px) {
         #ry-section-services #ry-each3 .ry-text {
           bottom: 0; } }
@@ -2316,10 +2284,10 @@ body p, body {
       -webkit-transform: rotate(45deg) translate(15px, 10px);
               transform: rotate(45deg) translate(15px, 10px); } }
   #ry-section-services #ry-each4 .ry-text {
-    bottom: 35px; }
+    bottom: 20px; }
     @media screen and (min-width: 992px) and (max-width: 1300px) {
       #ry-section-services #ry-each4 .ry-text {
-        bottom: 28px; } }
+        bottom: 12px; } }
     @media (max-width: 991px) {
       #ry-section-services #ry-each4 .ry-text {
         bottom: 0; } }
@@ -2336,9 +2304,6 @@ body p, body {
       bottom: -140px; } }
   #ry-section-services #ry-each5 .ry-text {
     bottom: 20px; }
-    @media screen and (min-width: 992px) and (max-width: 1199px) {
-      #ry-section-services #ry-each5 .ry-text {
-        bottom: 14px; } }
     @media (max-width: 991px) {
       #ry-section-services #ry-each5 .ry-text {
         bottom: 0; } }
@@ -2359,17 +2324,15 @@ body p, body {
       #ry-section-services #ry-each6 {
         -webkit-transform: rotate(45deg) translate(50px, -40px);
                 transform: rotate(45deg) translate(50px, -40px); } }
-    #ry-section-services #ry-each6 .ry-text {
-      bottom: 40px; }
-      @media screen and (min-width: 992px) and (max-width: 1600px) {
-        #ry-section-services #ry-each6 .ry-text {
-          bottom: 30px; } }
-      @media screen and (min-width: 992px) and (max-width: 1300px) {
-        #ry-section-services #ry-each6 .ry-text {
-          bottom: 20px; } }
-      @media (max-width: 991px) {
-        #ry-section-services #ry-each6 .ry-text {
-          bottom: 0; } }
+    @media screen and (min-width: 992px) and (max-width: 1600px) {
+      #ry-section-services #ry-each6 .ry-text {
+        bottom: 30px; } }
+    @media screen and (min-width: 992px) and (max-width: 1300px) {
+      #ry-section-services #ry-each6 .ry-text {
+        bottom: 20px; } }
+    @media (max-width: 991px) {
+      #ry-section-services #ry-each6 .ry-text {
+        bottom: 0; } }
     @media screen and (min-width: 992px) and (max-width: 1300px) {
       #ry-section-services #ry-each6 svg {
         bottom: -30px; } }
@@ -2574,6 +2537,7 @@ body p, body {
     max-width: 240px;
     background-size: cover;
     background-position: center center;
+    width: 18%;
     width: 100%;
     -webkit-box-shadow: 15px 0px 20px rgba(102, 102, 102, 0.1);
             box-shadow: 15px 0px 20px rgba(102, 102, 102, 0.1);
@@ -2604,6 +2568,7 @@ body p, body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 0 5%;
     padding: 70px 5%; }
     @media (min-width: 992px) {
       #ry-section-team .ry-text-box {

@@ -212,6 +212,18 @@ body {
   margin-top: 20px; }
   .ry-tabs .nav-tabs {
     border: 0; }
+    @media screen and (min-width: 992px) and (max-width: 1226px) {
+      .ry-tabs .nav-tabs {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+    @media screen and (min-width: 992px) and (max-width: 1226px) {
+      .ry-tabs .nav-tabs li {
+        -ms-flex-preferred-size: 33.3%;
+            flex-basis: 33.3%;
+        text-align: center; } }
     .ry-tabs .nav-tabs li a {
       background: #ebebeb;
       letter-spacing: 3px;
@@ -220,6 +232,18 @@ body {
       font-weight: 700;
       text-transform: uppercase;
       font-size: 14px; }
+      @media screen and (min-width: 992px) and (max-width: 1226px) {
+        .ry-tabs .nav-tabs li a {
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          height: 80px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; } }
   .ry-tabs .tab-pane {
     padding: 20px; }
   .ry-tabs .tab-content {
@@ -2034,13 +2058,7 @@ body.default {
 
 /* header */
 #ry-section-header {
-  background: #fff; }
-
-#ry-section-header {
   border-color: #106479; }
-
-#ry-section-header .ry-left .ry-logo, #ry-section-header .ry-left .ry-logo:before {
-  background: #fff; }
 
 #ry-section-header .ry-left .ry-logo {
   border-color: #106479; }
@@ -2063,36 +2081,18 @@ body.default {
 #ry-section-header .ry-apt-wrap, #ry-section-header-mobile .ry-apt-wrap {
   background: #082e6d; }
 
-#ry-section-header-mobile .mobile-container {
-  background: #fff; }
-
-#ry-section-header-mobile .hamburger .hamburger-inner, #ry-section-header-mobile .hamburger .hamburger-inner:before, #ry-section-header-mobile .hamburger .hamburger-inner:after {
-  background: #106479; }
-
-#ry-section-header-mobile .mobile-button a {
-  background: #106479; }
-
-#ry-section-header-mobile .mobile-button a {
-  color: #fff; }
-
 /* hero */
-#ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h1 {
-  color: #fff; }
-  @media (max-width: 767px) {
-    #ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h1 {
-      color: #106479; } }
+@media (max-width: 767px) {
+  #ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h1 {
+    color: #106479; } }
 
-#ry-section-hero .ry-caption h3 {
-  color: #fff; }
-  @media (max-width: 767px) {
-    #ry-section-hero .ry-caption h3 {
-      color: #999; } }
+@media (max-width: 767px) {
+  #ry-section-hero .ry-caption h3 {
+    color: #999; } }
 
-#ry-section-hero .ry-caption p {
-  color: #fff; }
-  @media (max-width: 767px) {
-    #ry-section-hero .ry-caption p {
-      color: #999; } }
+@media (max-width: 767px) {
+  #ry-section-hero .ry-caption p {
+    color: #999; } }
 
 #ry-section-cta .ry-each:nth-child(1):before, #ry-section-cta .ry-each:nth-child(4):before {
   background: #b4cd0c; }
@@ -2317,7 +2317,7 @@ body.default {
 #ry-sidebar #accordion .ry-link-item, #ry-sidebar #accordion .ry-link-item:last-child {
   border-bottom-color: rgba(3, 51, 51, 0.1); }
 
-.primary-bg, .ry-tabs .nav-tabs li.active > a, #mobile_menu, #ry-pg-body .ry-text ul.pagination li.active a, #ry-pg-body .ry-text ol.pagination li.active a, #ry-pg-body .ry-text ul.pagination li.active a:hover, #ry-pg-body .ry-text ol.pagination li.active a:hover, #ry-pg-body ul.pagination li.active a, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #ry-pg-body .ry-text ul.pagination li:before, #ry-pg-body .ry-text ol.pagination li:before, #ry-pg-body ul.pagination li a, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary:hover, .module-4 .ry-each:hover:after, #ry-section-header .ry-toggle-options .social-search .search-bar-widget button.btn-primary {
+.primary-bg, .ry-tabs .nav-tabs li.active > a, #mobile_menu, #ry-pg-body .ry-text ul.pagination li.active a, #ry-pg-body .ry-text ol.pagination li.active a, #ry-pg-body .ry-text ul.pagination li.active a:hover, #ry-pg-body .ry-text ol.pagination li.active a:hover, #ry-pg-body ul.pagination li.active a, #ry-section-header-mobile .hamburger .hamburger-inner, #ry-section-header-mobile .hamburger .hamburger-inner:before, #ry-section-header-mobile .hamburger .hamburger-inner:after, #ry-section-header-mobile .mobile-button a, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #ry-pg-body .ry-text ul.pagination li:before, #ry-pg-body .ry-text ol.pagination li:before, #ry-pg-body ul.pagination li a, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary:hover, .module-4 .ry-each:hover:after, #ry-section-header .ry-toggle-options .social-search .search-bar-widget button.btn-primary {
   background: #106479; }
 
 .primary-c, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, #ry-pg-body .ry-left a:not(.ry-btn), #ry-pg-body .ry-text a, #ry-pg-body .ry-text a:hover, #ry-pg-body .ry-text ul li:before, #ry-pg-body .ry-text ol li:before, #ry-pg-body #srvc-box .service-items .service-info h4, #ry-pg-body .teambox .team-item h4, #ry-pg-body .result-box a, #ry-pg-body .primary-btn:hover, #ry-pg-body .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, .ry-accordion .ry-heading.ui-state-active, .ry-modal h3, .pagination-card .pagin-article:hover span.read-more, .pagination-card .pagin-article:focus span.read-more, .pagination-card span.read-more {
@@ -2353,10 +2353,10 @@ body.default {
 .gray-bg {
   background: #666666; }
 
-.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar #searchfield button, #ry-sidebar .ry-sb-title, #ry-pg-banner .ry-bnr-wrp .ry-text, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .white-c, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, #ry-pg-body .ry-text ul.pagination li.active a, #ry-pg-body .ry-text ol.pagination li.active a, .ry-btn, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title a, .module-4 .ry-each a, #ry-section-header .ry-toggle-options .hd-phn a, #ry-section-header .ry-toggle-options .btn-header-search i, #ry-section-header-mobile .ry-apt-wrap .ry-btn-primary {
+.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-sidebar #searchfield button, #ry-sidebar .ry-sb-title, #ry-pg-banner .ry-bnr-wrp .ry-text, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .white-c, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, #ry-pg-body .ry-text ul.pagination li.active a, #ry-pg-body .ry-text ol.pagination li.active a, #ry-section-header-mobile .mobile-button a, #ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h1, #ry-section-hero .ry-caption h3, #ry-section-hero .ry-caption p, .ry-btn, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title a, .module-4 .ry-each a, #ry-section-header .ry-toggle-options .hd-phn a, #ry-section-header .ry-toggle-options .btn-header-search i, #ry-section-header-mobile .ry-apt-wrap .ry-btn-primary {
   color: #fff; }
 
-.ry-accordion .ry-heading, .ry-accordion .ry-heading.ui-state-active, #menu_container .hamburger .hamburger-inner, #menu_container .hamburger .hamburger-inner:after, #menu_container .hamburger .hamburger-inner:before, #ry-pg-body .rev-form-box, #ry-pg-body .formBox, #ry-pg-body #srvc-box .service-items, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .white-bg, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title:after, #ry-sidebar .ry-sb-articles .ry-circle:before, #ry-pg-banner .ry-bnr-wrp:before, #ry-sidebar #searchfield button {
+.ry-accordion .ry-heading, .ry-accordion .ry-heading.ui-state-active, #menu_container .hamburger .hamburger-inner, #menu_container .hamburger .hamburger-inner:after, #menu_container .hamburger .hamburger-inner:before, #ry-pg-body .rev-form-box, #ry-pg-body .formBox, #ry-pg-body #srvc-box .service-items, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .white-bg, #ry-section-header, #ry-section-header .ry-left .ry-logo, #ry-section-header .ry-left .ry-logo:before, #ry-section-header-mobile .mobile-container, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-cta-title:after, #ry-sidebar .ry-sb-articles .ry-circle:before, #ry-pg-banner .ry-bnr-wrp:before, #ry-sidebar #searchfield button {
   background: #fff; }
 
 .black-c {
@@ -3102,7 +3102,8 @@ body p, body {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-bottom: 20px; }
   @media (max-width: 767px) {
     .module-1 {
       -webkit-box-orient: vertical;
@@ -3115,8 +3116,16 @@ body p, body {
   @media (max-width: 767px) {
     .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6, .module-1 p {
       text-align: center; } }
+  .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6 {
+    font-size: calc(20px + 6 * ((100vw - 320px) / 1280)); }
+    @media screen and (max-width: 320px) {
+      .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6 {
+        font-size: 20px; } }
+    @media screen and (min-width: 1600px) {
+      .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6 {
+        font-size: 26px; } }
   .module-1 .ry-box-left {
-    width: 30%; }
+    width: 25%; }
     @media (max-width: 500px) {
       .module-1 .ry-box-left {
         width: 50%; } }
@@ -3124,7 +3133,7 @@ body p, body {
       .module-1 .ry-box-left img {
         margin-bottom: 20px; } }
   .module-1 .ry-box-right {
-    width: 65%; }
+    width: 70%; }
     @media (max-width: 767px) {
       .module-1 .ry-box-right {
         width: 100%; } }
@@ -3719,6 +3728,7 @@ body p, body {
       #ry-section-header .ry-right {
         display: none; } }
     #ry-section-header .ry-right .ry-box-social {
+      width: auto;
       margin-right: 50px;
       position: relative; }
       #ry-section-header .ry-right .ry-box-social li {
@@ -4200,6 +4210,14 @@ body p, body {
       display: none; } }
   #ry-section-hero .hero-carousel .carousel-control {
     display: none; }
+  @media (min-width: 992px) {
+    #ry-section-hero .ry-slide:before {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(16, 100, 121, 0.2);
+      top: 0;
+      left: 0; } }
   #ry-section-hero .ry-caption {
     position: absolute;
     top: 25%;
@@ -4226,6 +4244,9 @@ body p, body {
       @media (max-width: 1199px) {
         #ry-section-hero .ry-caption .ry-slide-text {
           max-width: 700px; } }
+      @media (min-width: 2000px) {
+        #ry-section-hero .ry-caption .ry-slide-text {
+          max-width: 100%; } }
     #ry-section-hero .ry-caption h2, #ry-section-hero .ry-caption h3, #ry-section-hero .ry-caption p {
       text-align: center; }
     #ry-section-hero .ry-caption h3 {
@@ -4255,7 +4276,9 @@ body p, body {
     #ry-section-hero .ry-caption h1 {
       font-size: calc(35px + 45 * ((100vw - 320px) / 1600));
       font-weight: 800;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      text-align: center;
+      line-height: 100%; }
       @media screen and (max-width: 320px) {
         #ry-section-hero .ry-caption h1 {
           font-size: 35px; } }
@@ -4351,13 +4374,23 @@ body p, body {
 #ry-section-welcome {
   position: relative;
   z-index: 1; }
+  #ry-section-welcome.no-video {
+    padding-bottom: 200px; }
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      #ry-section-welcome.no-video {
+        padding-bottom: 100px; } }
+    @media (max-width: 991px) {
+      #ry-section-welcome.no-video {
+        padding-bottom: 100px; } }
+    #ry-section-welcome.no-video .ry-video {
+      display: none; }
   #ry-section-welcome:before {
     position: absolute;
     top: 0;
     left: 0;
     content: '';
     width: 100%;
-    height: 840px;
+    height: 100%;
     background-image: url(https://s3.amazonaws.com/static.organiclead.com/Site-8b307a40-8585-4078-a37b-3aabf89ad021/home/welcomebg.png);
     background-size: cover;
     background-position: bottom; }
@@ -4374,7 +4407,7 @@ body p, body {
     position: relative; }
     @media (min-width: 992px) {
       #ry-section-welcome .ry-video {
-        top: 100px; } }
+        top: 120px; } }
   #ry-section-welcome .ry-video-container {
     position: relative;
     width: 100%;
@@ -4393,6 +4426,11 @@ body p, body {
 /* services */
 #ry-section-services {
   padding-top: 220px; }
+  #ry-section-services.no-video {
+    padding-top: 115px; }
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      #ry-section-services.no-video {
+        padding-top: 100px; } }
   @media (max-width: 991px) {
     #ry-section-services {
       padding-top: 60px; } }
@@ -4892,13 +4930,21 @@ body p, body {
       width: 100%;
       height: 100%; } }
   #ry-section-team .ry-box > div {
-    display: inline-block; }
+    display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (max-width: 991px) {
+      #ry-section-team .ry-box > div {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
   #ry-section-team .ry-photo {
     max-width: 240px;
     background-size: cover;
     background-position: center center;
-    height: 290px;
-    width: 18%;
+    width: 100%;
     -webkit-box-shadow: 15px 0px 20px rgba(102, 102, 102, 0.1);
             box-shadow: 15px 0px 20px rgba(102, 102, 102, 0.1);
     z-index: 2;
@@ -4928,11 +4974,10 @@ body p, body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 0 5%; }
+    padding: 70px 5%; }
     @media (min-width: 992px) {
       #ry-section-team .ry-text-box {
-        width: 82%;
-        height: 290px; } }
+        width: 82%; } }
     @media (max-width: 991px) {
       #ry-section-team .ry-text-box {
         padding: 30px; } }

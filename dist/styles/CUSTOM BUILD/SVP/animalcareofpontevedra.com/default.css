@@ -211,18 +211,6 @@ body {
   margin-top: 20px; }
   .ry-tabs .nav-tabs {
     border: 0; }
-    @media screen and (min-width: 992px) and (max-width: 1226px) {
-      .ry-tabs .nav-tabs {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; } }
-    @media screen and (min-width: 992px) and (max-width: 1226px) {
-      .ry-tabs .nav-tabs li {
-        -ms-flex-preferred-size: 33.3%;
-            flex-basis: 33.3%;
-        text-align: center; } }
     .ry-tabs .nav-tabs li a {
       background: #ebebeb;
       letter-spacing: 3px;
@@ -231,18 +219,6 @@ body {
       font-weight: 700;
       text-transform: uppercase;
       font-size: 14px; }
-      @media screen and (min-width: 992px) and (max-width: 1226px) {
-        .ry-tabs .nav-tabs li a {
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          height: 80px;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center; } }
   .ry-tabs .tab-pane {
     padding: 20px; }
   .ry-tabs .tab-content {

@@ -6,22 +6,22 @@
 /***** INSIDE PAGE ****/
 /***** AMP ******/
 .primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, #ry-sidebar .ry-sb-title, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, body ul.pagination li:before, body ol.pagination li:before, .ry-btn, .ry-btn.ry-btn-primary, .module-14 .item .card .slide-text-wrap .btn-wrap .btn.btn-primary, .module-19 .btn.btn-primary, .module-19 .btn.ry-btn-primary, .module-20 .btn.btn-primary, .module-20 .btn.ry-btn-primary, .module-21 .btn.btn-primary, .module-21 .btn.ry-btn-primary, .module-22 .btn.btn-primary, .module-22 .btn.ry-btn-primary, .pagination li.active > a, .ry-btn.ry-btn-secondary:hover, #ry-sidebar #accordion .ry-drop-nav ul, #menu_container, .module-16 #footer-row1 .social-inner-wrap li, .module-14 .item .card .slide-text-wrap .btn-wrap .btn:hover, .module-17, .module-17 .title-box, .module-19 .card-holder .img-frame .anchor .anchor-link, .module-20 .slider-controller .ry-slider-nav .slider-btn:hover, .module-20 #ry-section-request-appointment #ry-slider.req-appointment-slider .ry-slider-nav .slider-btn, .module-21 #ry-slider.req-appointment-slider .ry-slider-nav .slider-btn {
-  background: #763131; }
+  background: #cf942e; }
 
 .primary-bga, .module-18 .ry-content .card:hover .anchor-wrap, .module-20 .slider-bg-wrap:before {
-  background: rgba(118, 49, 49, 0.8); }
+  background: rgba(207, 148, 46, 0.8); }
 
 .primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, .ry-accordion .ry-heading.ui-state-active, body h1, body h2, body h3, body h4, body h5, body h6, #ry-sidebar #searchfield button, .module-16 #footer-row1 .card .card-title .ry-heading, .module-16 #footer-row1 .card .card-body .ry-footer-detail a:hover, .module-16 #footer-row2 a:hover, .module-17 .title-box, .module-19 .ry-generic .title-wrap .ry-heading, .module-20 .ry-generic .title-wrap .ry-heading, .module-22 .ry-generic .title-wrap .ry-heading {
-  color: #763131; }
+  color: #cf942e; }
 
 .secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container, .mobile-container.fixed, .ry-btn:hover, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary, .module-14 .item .card .slide-text-wrap .btn-wrap .btn.btn-primary:hover, .module-19 .btn.btn-primary:hover, .module-19 .btn.ry-btn-primary:hover, .module-20 .btn.btn-primary:hover, .module-20 .btn.ry-btn-primary:hover, .module-21 .btn.btn-primary:hover, .module-21 .btn.ry-btn-primary:hover, .module-22 .btn.btn-primary:hover, .module-22 .btn.ry-btn-primary:hover, .pagination li.active > a:hover, #menu_container .mm-listview li:hover, .module-15 .right .__subs, .module-15 .right .__subs.search .search-bar-widget .btn, .module-16 #footer-row1 .social-inner-wrap li:hover, .module-19 .card-holder .img-frame .anchor:hover .anchor-link, .module-19 .btn:hover, .module-20 .slider-controller .ry-slider-nav .slider-btn, .module-20 #ry-section-request-appointment #ry-slider.req-appointment-slider .ry-slider-nav .slider-btn:hover, .module-20 .btn:hover, .module-21 #ry-slider.req-appointment-slider .ry-slider-nav .slider-btn:hover, .module-21 .btn:hover, .module-22 .btn:hover, .module-23 .ry-icon-wrp {
-  background: #272727; }
+  background: #1b2b4c; }
 
 .secondary-bga, #ry-sidebar #accordion .ry-drop-nav ul li a.active, #ry-sidebar #accordion .ry-drop-nav ul li a:hover {
-  background: rgba(39, 39, 39, 0.8); }
+  background: rgba(27, 43, 76, 0.8); }
 
 .secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .module-20 .dr-name h4 {
-  color: #272727; }
+  color: #1b2b4c; }
 
 .tertiary-bg, .module-20 #ry-section-request-appointment, .module-21 {
   background: #333333; }
