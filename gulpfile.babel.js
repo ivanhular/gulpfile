@@ -24,9 +24,14 @@ import splitFiles  from 'gulp-split-files';
 //Set Proxy server
 // var proxy = "https://admin.roya.com/sites/Site-ac712f76-d550-4684-bd64-1430ec6caa9a";
 // var proxy = "https://admin.roya.com/sites/Site-9320c01e-0f8f-43eb-b6c3-8b6e88a6076f";
-var proxy = "https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021";
+// var proxy = "https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021"; //svp base 2
+// var proxy = "https://admin.roya.com/sites/Site-a64dee50-9333-4a60-a4f2-e9a982401d38"; // dental theme 4
+// var proxy = "https://admin.roya.com/sites/Site-df60f3a3-2ab4-4670-8e8a-8ecc79fd2d7a"; //vet theme 5
+// var proxy = "https://admin.roya.com/sites/Site-8601a12f-7a2d-4e8b-a28c-6db93feff444"; //styleyesiowa
+var proxy = "https://admin.roya.com/sites/Site-3625db10-3092-47ab-810b-179470e06d15"; //marltoneye
 
 var settings = {
+  // targetFile:"index-amp",
   targetFile:"",
   globalIncludes:'sass/includes/', // Set Global Includes
   /*Note: If you wish to compile AMP and use browserSync
@@ -34,9 +39,15 @@ var settings = {
     <link href="{root}styles/amp.css" rel="stylesheet">
    */
   compileAmp:false, // Enable if AMP compilation
+  // folderName:'BASE SITE SASS/VET/VET THEME 5', // Set Custom Path Folder Name
+  // folderName:'BASE SITE SASS/DENTAL/DENTAL THEME 4', // Set Custom Path Folder Name
   // folderName:'BASE SITE SASS/OPTO/OPTO THEME 4', // Set Custom Path Folder Name
-     folderName:'BASE SITE SASS/VET/SVP', // Set Custom Path Folder Name
   // folderName:'CUSTOM BUILD/SVP/animalcareofpontevedra.com', // Set Custom Path Folder Name
+  // folderName:'CUSTOM BUILD/marltoneye',//styleyesiowa // Set Custom Path Folder Name
+  // folderName:'CUSTOM BUILD/marltoneye',//marltoneye // Set Custom Path Folder Name
+  // folderName:'CUSTOM BUILD/styleyesiowa',//styleyesiowa // Set Custom Path Folder Name
+  // folderName:'BASE SITE SASS/VET/SVP', // Set Custom Path Folder Name
+  folderName:'CUSTOM BUILD/donohoolaw', //www.donohoolaw.com // Set Custom Path Folder Name
 
   // SET PROXY FOR LIVE RELOAD
   compiledCSSpath1:'default.css',  // Set Compiled CSS
@@ -140,16 +151,16 @@ let setRewriteRules = ()=> {
   return obj;
 }
 gulp.task('browserSync', function(){
-browserSync.init({
-  proxy: `${proxy}/${settings.targetFile}`,
-  files: ['./dist'],
-  serveStatic: ['./dist'],
-  rewriteRules: setRewriteRules()
-});
+  browserSync.init({
+    proxy: `${proxy}/${settings.targetFile}`,
+    files: ['./dist'],
+    serveStatic: ['./dist'],
+    rewriteRules: setRewriteRules()
+  });
 
-gulp.watch(`sass/${settings.folderName}/*.scss`).on('change',
-    gulp.parallel('compile','split',[browserSync.reload])
-);
+  gulp.watch(`sass/${settings.folderName}/*.scss`).on('change',
+      gulp.parallel('compile','split',[browserSync.reload])
+  );
 
 });
 

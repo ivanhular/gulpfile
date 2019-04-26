@@ -1,0 +1,91 @@
+/* ------- START COLOR-SCHEME ------- */
+/************************************************
+  SET COLOR SCHEME FROM MOCKUP OR REQUESTED COLORS
+*************************************************/
+/**********************************************
+  COLOR SETTINGS DECLARATION
+  NOTE: This class is used for extension
+  e.g @extend .primary-c;
+***********************************************/
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, .module-82 .ry-sub-heading:after, .module-86 .ry-heading-wrp .ry-sub-heading:after, .module-87 .ry-sub-heading:after, .module-88 .ry-sub-heading:after, .module-89 .ry-sub-heading:after, .module-82 .ry-content-bg .ry-right, .module-89 .ry-promo-wrp span:before, .ry-btn.ry-btn-secondary:hover {
+  background: #abb825; }
+
+.primary-bga {
+  background: rgba(171, 184, 37, 0.8); }
+
+.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6 {
+  color: #abb825; }
+
+.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container, .mobile-container.fixed, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, body ul.pagination li:before, body ol.pagination li:before, .ry-btn.ry-btn-primary, .module-81 .ry-cta-wrp .ry-cta-title:after, .module-80 .ry-req-btn.laptop-btn a, .module-87 .ry-each:hover .ry-service-title, #ry-sidebar .ry-sb-title, .ry-btn.ry-btn-primary:hover, .module-23 .ry-icon-wrp {
+  background: #ff5651; }
+
+.secondary-bga {
+  background: rgba(255, 86, 81, 0.8); }
+
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .module-81 .ry-heading-wrp .ry-heading, .module-85 .ry-each:hover .ry-cta-title a, .module-89 .ry-promo-wrp {
+  color: #ff5651; }
+
+.tertiary-bg, .ry-btn.ry-btn-secondary, .module-80 .ry-nav button .hamburger-inner, .module-80 .ry-nav button .hamburger-inner:before, .module-80 .ry-nav button .hamburger-inner:after, .module-80 .ry-nav:after, .module-86 .ry-indicator span, .module-86 .ry-indicator span.active, .ry-indicator span.active:before {
+  background: #5a453a; }
+
+.tertiary-bga {
+  background: rgba(90, 69, 58, 0.8); }
+
+.tertiary-c, body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, .module-80 .ry-phone-wrp a, .module-80 .ry-nav:before, .module-81 .ry-cta-wrp .ry-cta-title a, .module-82 .ry-content-wrp .phone a, .module-82 .ry-content-wrp .fax a, .module-82 .ry-footer-btm .ry-powered, .module-85 .ry-cta-title a, .module-87 .ry-service-title a, .module-89 .ry-tag-line, .module-89 .ry-month, body, .module-24 .ry-each h5, .module-81 .ry-heading-wrp .ry-heading span {
+  color: #5a453a; }
+
+.gray, .ry-tabs .nav-tabs li a {
+  color: #7d7171; }
+
+.gray-bg {
+  background: #7d7171; }
+
+/**********************************************
+  STATIC COLOR DECLARATION
+  NOTE: This Place holders is used as a static
+  colors that we can use to modify the default
+  classes. You can Also ignore it!
+***********************************************/
+.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, .module-80 .ry-req-btn.laptop-btn a, .module-87 .ry-each:hover .ry-service-title a, .module-88 .ry-heading-wrp, .module-89 .ry-promo-wrp span:before, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, .module-81 .ry-cta-wrp .ry-cta-title:after, .ry-btn {
+  color: #fff; }
+
+.white-bg, .module-86 .ry-indicator span.active:before, .module-88 .ry-middle, .ry-indicator span, .ry-indicator span.active, #ry-pg-banner .ry-bnr-wrp:before, .module-23 .ry-each, .module-82 .ry-content-wrp .ry-right {
+  background: #fff; }
+
+.white-bga {
+  background: rgba(255, 255, 255, 0.8); }
+
+.black-c {
+  color: #000; }
+
+.black-bg {
+  background: #000; }
+
+.black-bga {
+  background: rgba(0, 0, 0, 0.8); }
+
+/**********************************************
+  HOMEPAGE SECTIONS COLOR SETTINGS
+***********************************************/
+.module-81 .ry-bg-container .ry-left {
+  background: #fffdef; }
+
+.module-82 .ry-content-bg .ry-left {
+  background: #fdfcf4; }
+
+.module-82 .ry-footer-btm {
+  border-top: 1px solid rgba(123, 106, 95, 0.1); }
+
+.module-87 .ry-service-title {
+  background: rgba(255, 255, 255, 0.8); }
+
+.module-88 .ry-img {
+  border: 10px solid #fff; }
+
+/**********************************************
+  INSIDE PAGE COLOR SETTINGS
+***********************************************/
+/**********************************************
+  AMP COLOR SETTINGS
+***********************************************/
+/* ------- END COLOR-SCHEME ------- */
