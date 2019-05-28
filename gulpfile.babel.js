@@ -1,4 +1,5 @@
 
+/****************IGNORE THIS SECTION**********************/
 import gulp from 'gulp';
 // import babel from 'gulp-babel';
 import compass from 'gulp-compass';
@@ -15,55 +16,60 @@ import cache from 'gulp-cache';
 import imagemin from 'gulp-imagemin';
 import gcmq from 'gulp-group-css-media-queries';
 import browserSync from 'browser-sync';
-// browserSync from('browser-sync').create();
 import autoreload  from 'autoreload-gulp';
 import splitFiles  from 'gulp-split-files';
+/****************IGNORE THIS SECTION**********************/
 
+/*
+IMPORTANT NOTE:
+If you wish to compile AMP and use browserSync Set this link on your amp-layout
+<link href="{root}styles/amp.css" rel="stylesheet">
+*/
 
-
+/****************MODIFY THIS SECTION ONLY**********************/
 //Set Proxy server
-// var proxy = "https://admin.roya.com/sites/Site-ac712f76-d550-4684-bd64-1430ec6caa9a";
-// var proxy = "https://admin.roya.com/sites/Site-9320c01e-0f8f-43eb-b6c3-8b6e88a6076f";
-// var proxy = "https://admin.roya.com/sites/Site-8b307a40-8585-4078-a37b-3aabf89ad021"; //svp base 2
-// var proxy = "https://admin.roya.com/sites/Site-a64dee50-9333-4a60-a4f2-e9a982401d38"; // dental theme 4
-// var proxy = "https://admin.roya.com/sites/Site-df60f3a3-2ab4-4670-8e8a-8ecc79fd2d7a"; //vet theme 5
-// var proxy = "https://admin.roya.com/sites/Site-8601a12f-7a2d-4e8b-a28c-6db93feff444"; //styleyesiowa
-var proxy = "https://admin.roya.com/sites/Site-3625db10-3092-47ab-810b-179470e06d15"; //marltoneye
+var project = {
+  0: {
+      projectName:"sample1",
+      proxy:"https://admin.roya.com/sites/Site-a64dee50-9333-4a60-a4f2-e9a982401d38",
+      compileAmp:true,
+      folderName:'CUSTOM BUILD/sample'
+  },
+  1: {
+      projectName:"sample2",
+      proxy:"https://admin.roya.com/sites/Site-3625db10-3092-47ab-810b-179470e06d15",
+      compileAmp:false,
+      folderName:'CUSTOM BUILD/sample2'
+  }
 
+}
+/****************MODIFY THIS SECTION ONLY**********************/
+
+
+/****************IGNORE THIS SECTION**********************/
 var settings = {
-  // targetFile:"index-amp",
-  targetFile:"",
-  globalIncludes:'sass/includes/', // Set Global Includes
-  /*Note: If you wish to compile AMP and use browserSync
-    Set this link on your amp-layout
-    <link href="{root}styles/amp.css" rel="stylesheet">
-   */
-  compileAmp:false, // Enable if AMP compilation
-  // folderName:'BASE SITE SASS/VET/VET THEME 5', // Set Custom Path Folder Name
-  // folderName:'BASE SITE SASS/DENTAL/DENTAL THEME 4', // Set Custom Path Folder Name
-  // folderName:'BASE SITE SASS/OPTO/OPTO THEME 4', // Set Custom Path Folder Name
-  // folderName:'CUSTOM BUILD/SVP/animalcareofpontevedra.com', // Set Custom Path Folder Name
-  // folderName:'CUSTOM BUILD/marltoneye',//styleyesiowa // Set Custom Path Folder Name
-  // folderName:'CUSTOM BUILD/marltoneye',//marltoneye // Set Custom Path Folder Name
-  // folderName:'CUSTOM BUILD/styleyesiowa',//styleyesiowa // Set Custom Path Folder Name
-  // folderName:'BASE SITE SASS/VET/SVP', // Set Custom Path Folder Name
-  folderName:'CUSTOM BUILD/donohoolaw', //www.donohoolaw.com // Set Custom Path Folder Name
+  globalIncludes:'sass/includes/', // Sets Global Includes
+  targetFile: project[1].compileAmp ? "index-amp" : "",
+  compileAmp: project[1].compileAmp ? project[1].compileAmp : false ,
+  folderName:`${project[1].folderName}`, // Sets Custom Path Folder Name
 
   // SET PROXY FOR LIVE RELOAD
-  compiledCSSpath1:'default.css',  // Set Compiled CSS
-  compiledCSSpath2:'site.css',  // Set Compiled CSS
-  compiledCSSpath3:'color-scheme.css',  // Set Compiled CSS
-  compiledCSSpath4:'amp.css',  // Set Compiled CSS
+  compiledCSSpath1:'default.css',  // Sets Compiled CSS
+  compiledCSSpath2:'site.css',  // Sets Compiled CSS
+  compiledCSSpath3:'color-scheme.css',  // Sets Compiled CSS
+  compiledCSSpath4:'amp.css',  // Sets Compiled CSS
 
   // SET Existing file to replace
-  fileRemovePath1:`${proxy}/styles/default.css`,
-  fileRemovePath2: `${proxy}/styles/site.css`,
-  fileRemovePath3: `${proxy}/styles/color_scheme_1.css`,
-  fileRemovePath4: `${proxy}/styles/amp.css`
+  fileRemovePath1:`${project[1].proxy}/styles/default.css`,
+  fileRemovePath2: `${project[1].proxy}/styles/site.css`,
+  fileRemovePath3: `${project[1].proxy}/styles/color_scheme_1.css`,
+  fileRemovePath4: `${project[1].proxy}/styles/amp.css`
 
 };
+/****************IGNORE THIS SECTION**********************/
 
-/**********************************************************************/
+
+/****************IGNORE THIS SECTION**********************/
 //compile js - css  single file
 gulp.task('useref', function() {
   return gulp.src('build/*.html')
@@ -152,7 +158,7 @@ let setRewriteRules = ()=> {
 }
 gulp.task('browserSync', function(){
   browserSync.init({
-    proxy: `${proxy}/${settings.targetFile}`,
+    proxy: `${project[1].proxy}/${settings.targetFile}`,
     files: ['./dist'],
     serveStatic: ['./dist'],
     rewriteRules: setRewriteRules()
@@ -175,7 +181,7 @@ gulp.task('split', function () {
 gulp.task('default',  gulp.series('browserSync',function(){
     gulp.series('gulp-autoreload');
 }));
-
+/****************IGNORE THIS SECTION**********************/
 
 
 /**
