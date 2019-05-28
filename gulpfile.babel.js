@@ -29,18 +29,13 @@ If you wish to compile AMP and use browserSync Set this link on your amp-layout
 /****************MODIFY THIS SECTION ONLY**********************/
 //Set Proxy server
 var project = {
-  0: {
-      projectName:"sample1",
-      proxy:"https://admin.roya.com/sites/Site-a64dee50-9333-4a60-a4f2-e9a982401d38",
-      compileAmp:true,
-      folderName:'CUSTOM BUILD/sample'
-  },
   1: {
-      projectName:"sample2",
-      proxy:"https://admin.roya.com/sites/Site-3625db10-3092-47ab-810b-179470e06d15",
+      projectName:"sample.com",
+      proxy:"https://admin.roya.com/sites/Site-a64dee50-9333-4a60-a4f2-e9a982401d38",
       compileAmp:false,
-      folderName:'CUSTOM BUILD/sample2'
-  }
+      folderName:'CUSTOM BUILD/sample.com'
+  },
+
 
 }
 /****************MODIFY THIS SECTION ONLY**********************/
