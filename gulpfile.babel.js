@@ -29,14 +29,23 @@ If you wish to compile AMP and use browserSync Set this link on your amp-layout
 /****************MODIFY THIS SECTION ONLY**********************/
 //Set Proxy server
 var project = {
-  1: {
-      projectName:"sample.com",
+  0: {
+      projectName:"DENTAL THEME 4",
       proxy:"https://admin.roya.com/sites/Site-a64dee50-9333-4a60-a4f2-e9a982401d38",
       compileAmp:false,
-      folderName:'CUSTOM BUILD/sample.com'
+      folderName:'BASE SITE SASS/DENTAL/DENTAL THEME 4'
   },
-
-
+  1: {
+      projectName:"faulknerplasticsurgery.com",
+      proxy:"https://admin.roya.com/sites/Site-d304aa63-65c4-4a8f-8e2a-eb95028cbd74",
+      compileAmp:false,
+      folderName:'CUSTOM BUILD/faulknerplasticsurgery.com',
+      targetFile:"coolscupting",
+      setOveride:{
+          localCSSname:"main.css",
+          targetOverideCSSname:"overide.css",
+      }
+  },
 }
 /****************MODIFY THIS SECTION ONLY**********************/
 
@@ -44,7 +53,7 @@ var project = {
 /****************IGNORE THIS SECTION**********************/
 var settings = {
   globalIncludes:'sass/includes/', // Sets Global Includes
-  targetFile: project[1].compileAmp ? "index-amp" : "",
+  targetFile: project[1].compileAmp ? "index-amp" : `${project[1].targetFile}`,
   compileAmp: project[1].compileAmp ? project[1].compileAmp : false ,
   folderName:`${project[1].folderName}`, // Sets Custom Path Folder Name
 
@@ -53,12 +62,15 @@ var settings = {
   compiledCSSpath2:'site.css',  // Sets Compiled CSS
   compiledCSSpath3:'color-scheme.css',  // Sets Compiled CSS
   compiledCSSpath4:'amp.css',  // Sets Compiled CSS
+  compiledCSSpath5:`${project[1].setOveride.localCSSname}`,  // Sets Compiled CSS
 
   // SET Existing file to replace
   fileRemovePath1:`${project[1].proxy}/styles/default.css`,
   fileRemovePath2: `${project[1].proxy}/styles/site.css`,
   fileRemovePath3: `${project[1].proxy}/styles/color_scheme_1.css`,
-  fileRemovePath4: `${project[1].proxy}/styles/amp.css`
+  fileRemovePath4: `${project[1].proxy}/styles/amp.css`,
+  fileRemovePath5: `${project[1].proxy}/styles/overide.css`,
+  fileRemovePath5: `${project[1].proxy}/styles/${project[1].setOveride.targetOverideCSSname}`
 
 };
 /****************IGNORE THIS SECTION**********************/
@@ -87,6 +99,7 @@ gulp.task('images', function() {
     })))
     .pipe(gulp.dest('dist/images'))
 });
+
 /**********************************************************************/
 let setFile = ()=> {
   if(settings.compileAmp){
@@ -116,6 +129,7 @@ gulp.task('compile', function() {
   .pipe(gulp.dest(`dist/styles/${settings.folderName}`))
   // .pipe(browserSync.stream())
 });
+
 let setRewriteRules = ()=> {
   var obj;
   if(settings.compileAmp){
@@ -126,6 +140,15 @@ let setRewriteRules = ()=> {
               return `/styles/${settings.folderName}/${settings.compiledCSSpath4}`;
           }
       },
+    ];
+  }else if(project[1].setOveride != undefined){
+    obj = [
+        {
+          match: new RegExp(settings.fileRemovePath5),
+          fn: function() {
+              return `/styles/${settings.folderName}/${settings.compiledCSSpath5}`;
+          }
+      }
     ];
   }else{
     obj = [
@@ -151,6 +174,7 @@ let setRewriteRules = ()=> {
   }
   return obj;
 }
+
 gulp.task('browserSync', function(){
   browserSync.init({
     proxy: `${project[1].proxy}/${settings.targetFile}`,
@@ -171,7 +195,6 @@ gulp.task('split', function () {
   .pipe(splitFiles())
   .pipe(gulp.dest(`dist/styles/${settings.folderName}`));
 });
-
 
 gulp.task('default',  gulp.series('browserSync',function(){
     gulp.series('gulp-autoreload');
