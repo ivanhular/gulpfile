@@ -1,0 +1,79 @@
+/* ------- START COLOR-SCHEME ------- */
+/************************************************
+  SET COLOR SCHEME FROM MOCKUP OR REQUESTED COLORS
+*************************************************/
+/**********************************************
+  COLOR SETTINGS DECLARATION
+  NOTE: This class is used for extension
+  e.g @extend .primary-c;
+***********************************************/
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, body ul.pagination li:before, body ol.pagination li:before, .mobile-container {
+  background: #0079a2; }
+
+.primary-bga {
+  background: rgba(0, 121, 162, 0.8); }
+
+.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active {
+  color: #0079a2; }
+
+.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after {
+  background: #bad730; }
+
+.secondary-bga {
+  background: rgba(186, 215, 48, 0.8); }
+
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active {
+  color: #bad730; }
+
+.tertiary-bg {
+  background: #4f4f4f; }
+
+.tertiary-bga {
+  background: rgba(79, 79, 79, 0.8); }
+
+.tertiary-c {
+  color: #4f4f4f; }
+
+.gray, .ry-tabs .nav-tabs li a, .ry-search button.btn-primary {
+  color: #4f4f4f; }
+
+.gray-bg {
+  background: #4f4f4f; }
+
+/**********************************************
+  STATIC COLOR DECLARATION
+  NOTE: This Place holders is used as a static
+  colors that we can use to modify the default
+  classes. You can Also ignore it!
+***********************************************/
+body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, body {
+  color: #4f4f4f; }
+
+.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a {
+  color: #fff; }
+
+.white-bg, .mobile-container, .mobile-container.fixed, #ry-pg-banner .ry-bnr-wrp:before {
+  background: #fff; }
+
+.white-bga {
+  background: rgba(255, 255, 255, 0.8); }
+
+.black-c {
+  color: #000; }
+
+.black-bg {
+  background: #000; }
+
+.black-bga {
+  background: rgba(0, 0, 0, 0.8); }
+
+/**********************************************
+  HOMEPAGE SECTIONS COLOR SETTINGS
+***********************************************/
+/**********************************************
+  INSIDE PAGE COLOR SETTINGS
+***********************************************/
+/**********************************************
+  AMP COLOR SETTINGS
+***********************************************/
+/* ------- END COLOR-SCHEME ------- */

@@ -104,6 +104,9 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
 .module-100 .ry-footer-btm .ry-copyright {
   border-color: rgba(255, 255, 255, 0.1); }
 
+.module-103 {
+  background: #f7fbf5; }
+
 .module-103 .ry-heading {
   color: #2d2d2d; }
 

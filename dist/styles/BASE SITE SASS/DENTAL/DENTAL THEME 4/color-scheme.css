@@ -7,37 +7,37 @@
   NOTE: This class is used for extension
   e.g @extend .primary-c;
 ***********************************************/
-.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, body ul.pagination li:before, body ol.pagination li:before, .ry-btn.ry-btn-primary, #ry-section-header .ry-menu .ry-nav li a:before, #ry-section-services .ry-each:hover .ry-icon, .ry-btn.ry-btn-secondary:hover, .ry-icon, .ry-indicator span.active {
-  background: #183661; }
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, body ul.pagination li:before, body ol.pagination li:before, .ry-btn.ry-btn-primary, .module-173 .ry-menu .ry-nav li a:before, .module-193 .ry-menu .ry-nav li a:before, .module-193 .ry-contact, .module-193 .ry-laptop-icons .ry-icon, .module-183, .module-180 .ry-each:hover .ry-icon, .module-192 .ry-foot-top, .ry-btn.ry-btn-secondary:hover, .ry-icon, .ry-indicator span.active {
+  background: #24a671; }
 
-.primary-bga, #ry-section-about:before {
-  background: rgba(24, 54, 97, 0.8); }
+.primary-bga, .module-179:before {
+  background: rgba(36, 166, 113, 0.8); }
 
-.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-btn.ry-btn-secondary, .ry-accordion .ry-heading.ui-state-active, body h1, body h2, body h3, body h4, body h5, body h6, #ry-sidebar #accordion .ry-link-item ul a.active, .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6 {
-  color: #183661; }
+.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-btn.ry-btn-secondary, .ry-accordion .ry-heading.ui-state-active, body h1, body h2, body h3, body h4, body h5, body h6, #ry-sidebar #accordion .ry-link-item ul a.active, .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6, .module-182 .ry-foot-menu li a:hover, .module-192 .ry-foot-menu li a:hover {
+  color: #24a671; }
 
-.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .ry-btn.ry-btn-secondary, .ry-social .social-inner-wrap li a:hover, #ry-section-header .ry-contact, #ry-section-appointment, #ry-section-welcome .ry-heading:after, #ry-section-services .ry-heading:after, #ry-section-services .ry-each:hover, #ry-section-services .ry-icon, #ry-section-team .ry-heading:after, #ry-section-team .ry-name, #ry-section-footer .ry-foot-top, .ry-btn.ry-btn-primary:hover, .module-23 .ry-icon-wrp, #ry-section-welcome .ry-each .ry-icon {
-  background: #1d1919; }
+.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .ry-social .social-inner-wrap li a:hover, .module-173 .ry-contact, .module-193 .ry-contact .ry-head-phone, .module-193 .ry-contact .ry-head-phone .ry-icon, .module-194 .ry-social .social-inner-wrap li a:hover, .module-194 .ry-hero-copy .ry-btn, .module-177, .module-184 .ry-btn, .module-184 .ry-each:hover .ry-icon, .module-180 .ry-heading:after, .module-180 .ry-each:hover, .module-180 .ry-icon, .module-189 .ry-each:hover .ry-icon, .module-181 .ry-heading:after, .module-181 .ry-name, .module-191 .ry-btn, .module-185 .ry-btn:hover, .module-182 .ry-foot-top, .ry-btn.ry-btn-primary:hover, #ry-sidebar #searchfield button, .module-23 .ry-icon-wrp, .module-178 .ry-each .ry-icon {
+  background: #3a3838; }
 
 .secondary-bga {
-  background: rgba(29, 25, 25, 0.8); }
+  background: rgba(58, 56, 56, 0.8); }
 
-.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, #ry-section-hero .ry-hero-copy .ry-heading, #ry-section-welcome .ry-heading, #ry-section-services .ry-heading, #ry-section-services .ry-text div, #ry-section-services .ry-icon-wrp a, #ry-section-team .ry-heading, #ry-section-team .ry-info .ry-text {
-  color: #1d1919; }
-
-.tertiary-bg, #ry-section-header .ry-contact .ry-head-phone, #ry-section-header .ry-contact .ry-head-phone .ry-icon, #ry-section-welcome .ry-each:hover .ry-icon {
-  background: #1c4b82; }
-
-.tertiary-bga {
-  background: rgba(28, 75, 130, 0.8); }
-
-.tertiary-c, #ry-section-welcome .ry-each:hover .ry-title a {
-  color: #1c4b82; }
-
-.gray, .ry-tabs .nav-tabs li a, #ry-section-welcome .ry-each .ry-title a {
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, .module-174 .ry-hero-copy .ry-heading, .module-184 .ry-each:hover .ry-title a, .module-180 .ry-heading, .module-180 .ry-text div, .module-180 .ry-icon-wrp a, .module-181 .ry-heading, .module-185 .ry-btn {
   color: #3a3838; }
 
-.gray-bg {
+.tertiary-bg, .module-173 .ry-contact .ry-head-phone, .module-173 .ry-contact .ry-head-phone .ry-icon, .module-192 .info-wrap .ry-icon, .module-192 .info-wrap .address .ry-icon, .module-192 .info-wrap .phone .ry-icon, .module-178 .ry-each:hover .ry-icon {
+  background: #23a670; }
+
+.tertiary-bga {
+  background: rgba(35, 166, 112, 0.8); }
+
+.tertiary-c, .module-178 .ry-each:hover .ry-title a {
+  color: #23a670; }
+
+.gray, .ry-tabs .nav-tabs li a, .module-194 .ry-hero-copy .ry-heading, .module-178 .ry-heading, .module-184 .ry-heading, .module-189 .ry-heading, .module-189 .ry-text div, .module-189 .ry-icon-wrp a, .module-181 .ry-info .ry-text, .module-191 .ry-info .ry-text, .module-191 .ry-heading, .module-178 .ry-each .ry-title a, .module-184 .ry-each .ry-title a {
+  color: #3a3838; }
+
+.gray-bg, .module-178 .ry-heading:after, .module-184 .ry-heading:after, .module-184 .ry-each .ry-icon, .module-189 .ry-heading:after, .module-189 .ry-each:hover, .module-189 .ry-icon, .module-191 .ry-heading:after, .module-191 .ry-name {
   background: #3a3838; }
 
 /**********************************************
@@ -50,24 +50,30 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   color: #3a3838; }
 
 .ry-modal .ry-text p {
-  background: rgba(24, 54, 97, 0.1); }
+  background: rgba(36, 166, 113, 0.1); }
 
-.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary:hover, #ry-section-hero .ry-social .social-inner-wrap li a, #ry-section-appointment .ry-left .ry-heading, #ry-section-appointment .ry-left .ry-text, #ry-section-services .ry-each:hover .ry-text div, #ry-section-services .ry-each:hover a, #ry-section-team .ry-name, #ry-section-about .ry-heading, #ry-section-about .ry-text, #ry-section-footer .ry-heading, #ry-section-footer .ry-text, #ry-section-footer .info-wrap, #ry-section-footer .info-wrap .phone a, #ry-section-footer .ry-form .ry-label-phone:before,
-#ry-section-footer .ry-form .ry-label-email:before,
-#ry-section-footer .ry-form .ry-label-name:before,
-#ry-section-footer .ry-form .ry-label-message:before, #ry-sidebar .ry-sb-cta .ry-cta-wrp p, #ry-sidebar .social-inner-wrap li a, #ry-section-header .ry-contact .ry-head-phone a, #ry-section-header .ry-contact .ry-head-phone div, #ry-section-header .ry-contact .ry-appointment a, #ry-section-header .ry-laptop-icons .ry-icon, #ry-section-appointment .ry-form .ry-label-phone:before,
-#ry-section-appointment .ry-form .ry-label-email:before,
-#ry-section-appointment .ry-form .ry-label-name:before,
-#ry-section-appointment .ry-form .ry-label-message:before, #ry-section-appointment .ry-form .form-control, #ry-section-footer .ry-form .form-control, .ry-btn, #ry-section-appointment .ry-left {
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary:hover, .module-174 .ry-social .social-inner-wrap li a, .module-194 .ry-social .social-inner-wrap li a:hover, .module-194 .ry-social .social-inner-wrap li a, .module-177 .ry-left .ry-heading, .module-177 .ry-left .ry-text, .module-183 .ry-left .ry-heading, .module-183 .ry-left .ry-text, .module-180 .ry-each:hover .ry-text div, .module-180 .ry-each:hover a, .module-189 .ry-each:hover .ry-text div, .module-189 .ry-each:hover a, .module-181 .ry-name, .module-191 .ry-name, .module-179 .ry-heading, .module-179 .ry-text, .module-185 .ry-heading, .module-185 .ry-text, .module-182 .ry-heading, .module-182 .ry-text, .module-182 .info-wrap, .module-182 .info-wrap .phone a, .module-182 .ry-form .ry-label-phone:before,
+.module-182 .ry-form .ry-label-email:before,
+.module-182 .ry-form .ry-label-name:before,
+.module-182 .ry-form .ry-label-message:before, .module-192 .ry-heading, .module-192 .ry-text, .module-192 .info-wrap, .module-192 .info-wrap .phone a, .module-192 .ry-form .ry-label-phone:before,
+.module-192 .ry-form .ry-label-email:before,
+.module-192 .ry-form .ry-label-name:before,
+.module-192 .ry-form .ry-label-message:before, #ry-sidebar #searchfield button:before, #ry-sidebar .ry-sb-cta .ry-cta-wrp p, #ry-sidebar .social-inner-wrap li a, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, .module-173 .ry-contact .ry-head-phone a, .module-173 .ry-contact .ry-head-phone div, .module-173 .ry-contact .ry-appointment a, .module-173 .ry-laptop-icons .ry-icon, .module-193 .ry-contact .ry-head-phone a, .module-193 .ry-contact .ry-head-phone div, .module-193 .ry-contact .ry-appointment a, .module-193 .ry-laptop-icons .ry-icon, .module-177 .ry-form .ry-label-phone:before,
+.module-177 .ry-form .ry-label-email:before,
+.module-177 .ry-form .ry-label-name:before,
+.module-177 .ry-form .ry-label-message:before, .module-177 .ry-form .form-control, .module-183 .ry-form .ry-label-phone:before,
+.module-183 .ry-form .ry-label-email:before,
+.module-183 .ry-form .ry-label-name:before,
+.module-183 .ry-form .ry-label-message:before, .module-183 .ry-form .form-control, .module-182 .ry-form .form-control, .module-192 .ry-form .form-control, .ry-btn, .module-177 .ry-left, .module-183 .ry-left {
   color: #fff; }
 
-.white-bg, .mobile-container, .mobile-container.fixed, #ry-section-team .ry-info, #ry-section-about .ry-heading:after, #ry-section-footer .ry-form button, .module-23 .ry-each, #ry-section-appointment .ry-form button {
+.white-bg, .mobile-container, .mobile-container.fixed, .ry-btn.ry-btn-secondary, .module-181 .ry-info, .module-191 .ry-info, .module-179 .ry-heading:after, .module-185 .ry-heading:after, .module-182 .ry-form button, .module-192 .ry-form button, .module-23 .ry-each, .module-177 .ry-form button, .module-183 .ry-form button, .module-181 .ry-each:last-child {
   background: #fff; }
 
 .white-bga {
   background: rgba(255, 255, 255, 0.8); }
 
-.black-c, #ry-section-hero .ry-hero-copy .ry-sub-title, #ry-section-header .ry-menu .ry-nav li a, #ry-section-welcome .ry-text {
+.black-c, .module-173 .ry-menu .ry-nav li a, .module-193 .ry-menu .ry-nav li a, .module-174 .ry-hero-copy .ry-sub-title, .module-194 .ry-hero-copy .ry-sub-title, .module-178 .ry-text, .module-184 .ry-text {
   color: #000; }
 
 .black-bg {
@@ -88,51 +94,107 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
 .ry-social .social-inner-wrap li a {
   color: #8e8e8e; }
 
-/*hero*/
-#ry-section-hero .ry-left-overlay,
-#ry-section-hero .ry-right-overlay, #ry-section-hero .ry-hero-copy .ry-box {
+.ry-form.ry-form-box input[type=text], .ry-form.ry-form-box textarea {
+  color: #403f40; }
+
+/*header*/
+.module-173 {
   background: rgba(255, 255, 255, 0.9); }
 
-#ry-section-hero .ry-social .social-inner-wrap:before {
+.module-193 {
+  background: rgba(255, 255, 255, 0.9); }
+
+/*hero*/
+.module-174 .ry-left-overlay,
+.module-174 .ry-right-overlay, .module-174 .ry-hero-copy .ry-box {
+  background: rgba(255, 255, 255, 0.9); }
+
+.module-174 .ry-social .social-inner-wrap:before {
   color: #666666; }
-  @media screen and (min-width: 992px) and (max-width: 1024px) {
-    #ry-section-hero .ry-social .social-inner-wrap:before {
+  @media screen and (min-width: 992px) and (max-width: 1439px) {
+    .module-174 .ry-social .social-inner-wrap:before {
       color: #fff; } }
 
-#ry-section-hero .ry-social .social-inner-wrap li a {
+.module-174 .ry-social .social-inner-wrap li a {
+  background: #666666; }
+  @media screen and (min-width: 992px) and (max-width: 1439px) {
+    .module-174 .ry-social .social-inner-wrap li a {
+      background: #fff; } }
+
+@media screen and (min-width: 992px) and (max-width: 1439px) {
+  .module-174 .ry-social .social-inner-wrap li a {
+    color: #3a3838; } }
+
+.module-194 .ry-left-overlay,
+.module-194 .ry-right-overlay, .module-194 .ry-hero-copy .ry-box, .module-194 .ry-hero-copy .ry-bottom-box {
+  background: rgba(255, 255, 255, 0.9); }
+
+.module-194 .ry-social .social-inner-wrap:before {
+  color: #666666; }
+  @media screen and (min-width: 992px) and (max-width: 1024px) {
+    .module-194 .ry-social .social-inner-wrap:before {
+      color: #fff; } }
+
+.module-194 .ry-social .social-inner-wrap li a {
   background: #666666; }
   @media screen and (min-width: 992px) and (max-width: 1024px) {
-    #ry-section-hero .ry-social .social-inner-wrap li a {
+    .module-194 .ry-social .social-inner-wrap li a {
       background: #fff; } }
 
 @media screen and (min-width: 992px) and (max-width: 1024px) {
-  #ry-section-hero .ry-social .social-inner-wrap li a {
-    color: #1d1919; } }
-
-/*header*/
-#ry-section-header {
-  background: rgba(255, 255, 255, 0.9); }
+  .module-194 .ry-social .social-inner-wrap li a {
+    color: #3a3838; } }
 
 /*appointment*/
 /*welcome*/
 /*services*/
-#ry-section-services .ry-each {
+.module-180 .ry-each {
   background: #f2f2f2; }
 
-/*team*/
-#ry-section-team .wave1-wrap .wave-1 {
-  fill: #183661; }
+.module-189 .ry-each {
+  background: #f2f2f2; }
 
-#ry-section-team .wave2-wrap .wave-2 {
-  fill: #1d1919; }
+.module-189 .ry-each:hover .ry-icon {
+  background: #24a671; }
+
+/*team*/
+.module-181 .wave1-wrap .wave-1 {
+  fill: #24a671; }
+
+.module-181 .wave2-wrap .wave-2 {
+  fill: #3a3838; }
+
+.module-191 .ry-img-wrp {
+  background-color: #c8cbcd; }
+
+.module-191 .ry-indicator span.active {
+  background: #0086c5; }
+
+.module-191 .wave1-wrap .wave-1 {
+  fill: #3a3838; }
+
+.module-191 .wave2-wrap .wave-2 {
+  fill: #24a671; }
 
 /*about*/
+.module-185:before {
+  background: rgba(36, 166, 113, 0.6); }
+
+.module-185 .ry-btn {
+  background: #fff; }
+
+.module-185 .ry-btn:hover {
+  color: #fff; }
+
 /*footer*/
-#ry-section-footer .ry-foot-btm, #ry-section-footer .ry-foot-menu li a {
+.module-182 .ry-foot-btm, .module-182 .ry-foot-menu li a, .module-192 .ry-foot-menu li a {
   color: #5b5b5b; }
 
-#ry-section-footer .copyright .text-wrap, #ry-section-footer .copyright a {
+.module-182 .copyright .text-wrap, .module-182 .copyright a, .module-192 .copyright .text-wrap, .module-192 .copyright a {
   color: rgba(91, 91, 91, 0.7); }
+
+.module-192 .ry-foot-btm {
+  color: #5b5b5b; }
 
 /**********************************************
   INSIDE PAGE COLOR SETTINGS

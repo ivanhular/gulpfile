@@ -1,0 +1,102 @@
+/* ------- START COLOR-SCHEME ------- */
+/************************************************
+  SET COLOR SCHEME FROM MOCKUP OR REQUESTED COLORS
+*************************************************/
+/**********************************************
+  COLOR SETTINGS DECLARATION
+  NOTE: This class is used for extension
+  e.g @extend .primary-c;
+***********************************************/
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, .mobile-container, .mobile-container.fixed, body ul.pagination li:before, body ol.pagination li:before, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-secondary, #ry-sidebar .ry-sb-title, .ry-btn.ry-btn-secondary:hover, #ry-sidebar #accordion .ry-drop-nav ul, #ry-section-footer, #ry-section-services {
+  background: #058c3a; }
+
+.primary-bga {
+  background: rgba(5, 140, 58, 0.8); }
+
+.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, #ry-sidebar #searchfield button {
+  color: #058c3a; }
+
+.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .ry-social .social-inner-wrap li a:hover, .ry-btn.ry-btn-primary:hover, #ry-sidebar .ry-link-wrp .ry-link-item.active, .module-23 .ry-icon-wrp {
+  background: #058c3a; }
+
+.secondary-bga, #ry-sidebar #accordion .ry-drop-nav ul li a.active, #ry-sidebar #accordion .ry-drop-nav ul li a:hover {
+  background: rgba(5, 140, 58, 0.8); }
+
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, #ry-section-header .ry-menu li a:hover, #ry-section-footer .ry-foot-top .ry-form .ry-footer-title, #ry-section-welcome .ry-heading, #ry-section-team .ry-heading, #ry-section-affiliates .ry-heading {
+  color: #058c3a; }
+
+.tertiary-bg {
+  background: #549bab; }
+
+.tertiary-bga {
+  background: rgba(84, 155, 171, 0.8); }
+
+.tertiary-c {
+  color: #549bab; }
+
+.gray, .ry-tabs .nav-tabs li a, body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, body, .module-24 .ry-each h5, #ry-section-welcome .ry-sub-heading, #ry-section-team .ry-sub-heading, #ry-section-about .ry-sub-heading {
+  color: #7d7171; }
+
+.gray-bg, #ry-pg-content:before, #ry-section-welcome:before, #ry-section-affiliates:before {
+  background: #7d7171; }
+
+/**********************************************
+  STATIC COLOR DECLARATION
+  NOTE: This Place holders is used as a static
+  colors that we can use to modify the default
+  classes. You can Also ignore it!
+***********************************************/
+body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, body, .module-24 .ry-each h5 {
+  color: #7d7171; }
+
+.mobile-container .mobile-nav button, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, #ry-section-services .ry-content .service-title a, #ry-section-services .ry-content .desc-wrap, #ry-sidebar #accordion .ry-drop-nav ul li a, #ry-sidebar #accordion .ry-drop-nav ul li a.active, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-section-about .ry-heading, #ry-section-about .ry-text, .ry-btn, #ry-section-header .ry-menu li a, #ry-section-hero .ry-heading, #ry-section-hero .ry-text {
+  color: #fff; }
+
+.white-bg, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, #ry-section-services .ry-content .ry-each .icon-wrap, #ry-section-about:before, #ry-pg-body, #ry-sidebar #accordion .ry-drop-nav.open, .module-23 .ry-each, #ry-section-footer .ry-foot-top .ry-form, #ry-section-team .ry-content, #ry-section-about .ry-slider .ry-slide {
+  background: #fff; }
+
+.white-bga {
+  background: rgba(255, 255, 255, 0.8); }
+
+.black-c {
+  color: #000; }
+
+.black-bg {
+  background: #000; }
+
+.black-bga {
+  background: rgba(0, 0, 0, 0.8); }
+
+/**********************************************
+  INSIDE PAGE COLOR SETTINGS
+***********************************************/
+/**********************************************
+  HOMEPAGE SECTIONS COLOR SETTINGS
+***********************************************/
+/**********************************************
+  INSIDE PAGE COLOR SETTINGS
+***********************************************/
+.ry-social .social-inner-wrap li a {
+  border: 1px solid #1e3957; }
+
+#ry-section-hero .ry-slider-wrp {
+  background: rgba(55, 65, 69, 0.3); }
+
+.ry-form input, .ry-form textarea {
+  border: 1px solid #cfcfd0 !important; }
+
+#ry-section-header .button-wrap a {
+  border: 1px solid #fff; }
+
+#ry-pg-banner .ry-bnr-wrp:before {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(74%, rgba(0, 0, 0, 0.95)), to(rgba(0, 0, 0, 0.95)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.95) 74%, rgba(0, 0, 0, 0.95) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f2ffffff',GradientType=0 ); }
+
+#ry-pg-banner .ry-bnr-wrp .ry-pg-title {
+  background: rgba(0, 0, 0, 0.3); }
+
+/**********************************************
+  AMP COLOR SETTINGS
+***********************************************/
+/* ------- END COLOR-SCHEME ------- */

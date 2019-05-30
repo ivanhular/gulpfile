@@ -314,6 +314,9 @@ body.default #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1.ry-responsive-title {
   @media screen and (min-width: 992px) and (max-width: 1024px) {
     #ry-sidebar #searchfield button:before {
       font-size: 14px; } }
+  @media (max-width: 500px) {
+    #ry-sidebar #searchfield button:before {
+      font-size: 14px; } }
   #ry-sidebar .ry-cta-wrp {
     border-radius: 0;
     overflow: hidden; }
@@ -585,7 +588,7 @@ body.default #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1.ry-responsive-title {
         font-size: 14px; } }
     @media screen and (min-width: 1201px) and (max-width: 1440px) {
       .module-34 .ry-menu a {
-        font-size: 12px; } }
+        font-size: 15px; } }
     @media screen and (min-width: 992px) and (max-width: 1024px) {
       .module-34 .ry-menu a {
         font-size: 11px; } }
@@ -1454,7 +1457,10 @@ body.default #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1.ry-responsive-title {
       -webkit-box-shadow: none;
               box-shadow: none;
       border-bottom: 1px solid #000;
-      padding-top: 30px; }
+      padding-top: 30px;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      padding-top: 29px; }
       .module-97 .ry-form-wrp textarea::-webkit-input-placeholder {
         font-weight: 500; }
       .module-97 .ry-form-wrp textarea::-moz-placeholder {
