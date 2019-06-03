@@ -30,12 +30,14 @@ If you wish to compile AMP and use browserSync Set this link on your amp-layout
 //Set Proxy server
 var project = {
   0: {
+      //BASE SITE STRUCTURE
       projectName:"DENTAL THEME 4",
       proxy:"https://admin.roya.com/sites/Site-a64dee50-9333-4a60-a4f2-e9a982401d38",
       compileAmp:false,
       folderName:'BASE SITE SASS/DENTAL/DENTAL THEME 4'
   },
-  1: {
+  0: {
+      //CUSTOM OVERIDE
       projectName:"faulknerplasticsurgery.com",
       proxy:"https://admin.roya.com/sites/Site-d304aa63-65c4-4a8f-8e2a-eb95028cbd74",
       compileAmp:false,
@@ -45,6 +47,32 @@ var project = {
           localCSSname:"main.css",
           targetOverideCSSname:"overide.css",
       }
+  },
+  0: {
+      //CUSTOM OVERIDE
+      projectName:"visionsource-innovative-eye.com",
+      proxy:"https://admin.roya.com/sites/Site-60db761b-01c2-4a6f-a778-fc080ea26cf0",
+      compileAmp:false,
+      folderName:'CUSTOM BUILD/visionsource-innovative-eye.com',
+      targetFile:"",
+      setOveride:{
+          localCSSname:"main.css",
+          targetOverideCSSname:"updates.css",
+      }
+  },
+  0: {
+      //BASE SITE STRUCTURE
+      projectName:"ofirorthodontics.com",
+      proxy:"https://admin.roya.com/sites/Site-ebd2a871-5c36-4d01-a156-ed6161f3c882",
+      compileAmp:false,
+      folderName:'CUSTOM BUILD/ofirorthodontics.com'
+  },
+  1: {
+      //BASE SITE STRUCTURE
+      projectName:"spineclinicsalem.com",
+      proxy:"https://admin.roya.com/sites/Site-922699a4-4977-449c-9058-0eabb8a686f8",
+      compileAmp:false,
+      folderName:'CUSTOM BUILD/spineclinicsalem.com'
   },
 }
 /****************MODIFY THIS SECTION ONLY**********************/
@@ -62,15 +90,14 @@ var settings = {
   compiledCSSpath2:'site.css',  // Sets Compiled CSS
   compiledCSSpath3:'color-scheme.css',  // Sets Compiled CSS
   compiledCSSpath4:'amp.css',  // Sets Compiled CSS
-  compiledCSSpath5:`${project[1].setOveride.localCSSname}`,  // Sets Compiled CSS
+  compiledCSSpath5:(project[1].setOveride != undefined) ? `${project[1].setOveride.localCSSname}`  : "",  // Sets Compiled CSS
 
   // SET Existing file to replace
   fileRemovePath1:`${project[1].proxy}/styles/default.css`,
   fileRemovePath2: `${project[1].proxy}/styles/site.css`,
   fileRemovePath3: `${project[1].proxy}/styles/color_scheme_1.css`,
   fileRemovePath4: `${project[1].proxy}/styles/amp.css`,
-  fileRemovePath5: `${project[1].proxy}/styles/overide.css`,
-  fileRemovePath5: `${project[1].proxy}/styles/${project[1].setOveride.targetOverideCSSname}`
+  fileRemovePath5: (project[1].setOveride != undefined ) ? `${project[1].proxy}/styles/${project[1].setOveride.targetOverideCSSname}`  : ""
 
 };
 /****************IGNORE THIS SECTION**********************/
