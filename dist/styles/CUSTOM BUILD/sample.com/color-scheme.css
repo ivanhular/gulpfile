@@ -1,0 +1,143 @@
+/* ------- START COLOR-SCHEME ------- */
+/************************************************
+  SET COLOR SCHEME FROM MOCKUP OR REQUESTED COLORS
+*************************************************/
+/**********************************************
+  COLOR SETTINGS DECLARATION
+  NOTE: This class is used for extension
+  e.g @extend .primary-c;
+***********************************************/
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container, .mobile-container.fixed, .module-270 .cta-item:nth-child(even) .cta-text p, .ry-btn.ry-btn-primary, .module-244, .module-244 .ry-right .ry-menu li .dropdown-menu li a:hover, .module-244 .ry-right .ry-menu li .dropdown-menu > .active > a, .module-244 .ry-right .ry-menu li .dropdown-menu > .active > a:focus, .module-244 .ry-right .ry-menu li .dropdown-menu > .active > a:hover, .module-245 .ry-hero-mobile-copy, .module-268 .ry-hero-mobile-copy, .module-247 .ry-left .ry-btn-secondary:hover, .module-249 .carousel-indicators .active, .module-276 .carousel-indicators .active, .module-251, .module-251 ul.ftr-nav .dropdown-menu li a:hover, .module-251 ul.ftr-nav .dropdown-menu > .active > a, .module-251 ul.ftr-nav .dropdown-menu > .active > a:focus, .module-251 ul.ftr-nav .dropdown-menu > .active > a:hover, .module-288, .module-288 ul.ftr-nav .dropdown-menu li a:hover, .module-288 ul.ftr-nav .dropdown-menu > .active > a, .module-288 ul.ftr-nav .dropdown-menu > .active > a:focus, .module-288 ul.ftr-nav .dropdown-menu > .active > a:hover {
+  background: #32526e; }
+
+.primary-bga {
+  background: rgba(50, 82, 110, 0.8); }
+
+.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, .ry-btn.ry-btn-primary, .module-244 .ry-right .ry-box-phone:before, .module-244 .ry-right .ry-box-phone span, .module-244 .ry-right .ry-box-phone a, .module-244 .ry-right .ry-menu li a, .module-245 .ry-heading, .module-245 .ry-sub-title p, .module-268 .ry-heading, .module-268 .ry-sub-title p, .module-251, .module-251 ul.ftr-nav a, .module-251 #contact-info tr a, .module-251 .ofc-time td, .module-251 .ftr-info td, .module-251 .footer-copyrights p.pg-copy, .module-288 #contact-info tr a {
+  color: #fff; }
+
+.primary-color, #ry-sidebar #accordion .ry-link-item.open > a, .module-249 a.carousel-control:hover, .module-249 .carousel-control:hover, .module-249 .carousel-control:focus, .module-276 a.carousel-control:hover {
+  color: #32526e; }
+
+.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, body ul.pagination li:before, body ol.pagination li:before, .module-274 .cta-photo:before, #ry-sidebar .ry-sb-title, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary, .module-244 .ry-right .ry-request-an-appointment, .module-244 .ry-right .ry-menu li a:before, .module-244 .ry-right .ry-menu li .dropdown-menu, .module-246 .cta-photo:before, .module-248 .cta-photo:before, .module-251 ul.ftr-nav .dropdown-menu, .module-288 ul.ftr-nav .dropdown-menu {
+  background: #ff6b57; }
+
+.secondary-bga {
+  background: rgba(255, 107, 87, 0.8); }
+
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .ry-btn.ry-btn-secondary, .module-244 .ry-right .ry-request-an-appointment a, .module-244 .ry-right .ry-request-an-appointment span, .module-244 .ry-right .ry-menu li .dropdown-menu li a, .module-246 .cta-photo:after, .module-248 .cta-photo:after, .module-274 .cta-photo:after, .module-251 ul.ftr-nav .dropdown-menu li a, .module-288 ul.ftr-nav .dropdown-menu li a {
+  color: #fff; }
+
+.secondary-color, .module-247 .ry-left .ry-heading, .module-274 .ry-left .ry-heading, .module-276 .ry-heading, .module-288 .ftr-title h4, #ry-pg-body .search-result a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar .ry-link-wrp .ry-link-item.active a, #ry-sidebar #accordion .ry-link-item > a:hover, #ry-sidebar #accordion .ry-link-item ul a:hover, #ry-sidebar #accordion .ry-link-item ul a.active, .module-273 .ry-left .ry-heading, .module-248 .ry-left .ry-heading, .module-249 h2, .module-249 .rev-bio .pg-copy span, .module-276 .rev-photo .fa, .module-251 .ftr-title h4, .ry-patient-form a {
+  color: #ff6b57 !important; }
+
+.tertiary-bg, .ry-indicator span.active:before, .module-247, .module-249 {
+  background: #e6f1f3; }
+
+.tertiary-bga {
+  background: rgba(230, 241, 243, 0.8); }
+
+.tertiary-c, body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, body {
+  color: #555; }
+
+.tertiary-color {
+  color: #e6f1f3; }
+
+.fourth-c {
+  color: #ff6b57; }
+
+.gray, .ry-tabs .nav-tabs li a {
+  color: #7d7171; }
+
+.gray-bg {
+  background: #7d7171; }
+
+/**********************************************
+  STATIC COLOR DECLARATION
+  NOTE: This Place holders is used as a static
+  colors that we can use to modify the default
+  classes. You can Also ignore it!
+***********************************************/
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a {
+  color: #fff; }
+
+.white-bg, .ry-indicator span, .ry-indicator span.active, #ry-pg-banner .ry-bnr-wrp:before {
+  background: #fff; }
+
+.white-bga {
+  background: rgba(255, 255, 255, 0.8); }
+
+.black-c {
+  color: #000; }
+
+.black-bg {
+  background: #000; }
+
+.black-bga {
+  background: rgba(0, 0, 0, 0.8); }
+
+/**********************************************
+  HOMEPAGE SECTIONS COLOR SETTINGS
+***********************************************/
+.module-270 .cta-text p {
+  background: #ff6b57; }
+
+.module-270 .cta-text p {
+  color: #fff; }
+
+.module-247:before, .module-247:after {
+  border-bottom: 3.5px dotted #e6f1f3;
+  background-image: radial-gradient(circle at 8px 15px, #e6f1f3 12px, transparent 13px); }
+
+.module-247 .ry-left p {
+  color: #555; }
+
+.module-273:after {
+  border-bottom: 3.5px dotted #f3eee6;
+  background-image: radial-gradient(circle at 8px 15px, #f3eee6 12px, transparent 13px); }
+
+.module-273 {
+  background: #f3eee6; }
+
+.module-274 .cta-links a {
+  color: #555; }
+
+.module-249:before {
+  border-bottom: 3.5px dotted #e6f1f3;
+  background-image: radial-gradient(circle at 8px 15px, #e6f1f3 12px, transparent 13px); }
+
+.module-276:before {
+  border-bottom: 3.5px dotted #f3eee6;
+  background-image: radial-gradient(circle at 8px 15px, #f3eee6 12px, transparent 13px); }
+
+.module-276 {
+  background: #f3eee6; }
+
+.module-276 h5, .module-276 .rev-bio p, .module-276 .rev-bio .pg-copy span, .module-276 .rev-bio .pg-copy p {
+  color: #555; }
+
+.module-276 .carousel-control:hover, .module-276 .carousel-control:focus {
+  color: #32526e; }
+
+.module-287 .ry-heading {
+  color: #fff; }
+
+.module-287 .form-control {
+  color: #555; }
+
+.module-251:before, .module-288:before {
+  background-image: radial-gradient(circle at 8px 15px, #32526e 12px, transparent 13px); }
+
+.module-288, .module-288 ul.ftr-nav .dropdown-menu li a, .module-288 ul.ftr-nav a, .module-288 .ofc-time td, .module-288 .ftr-info td, .module-288 .social-inner-wrap li a, .module-288 .footer-copyrights p.pg-copy, .module-288 .ftr-copyright a, .module-288 .ftr-copyright .pg-copy.right a {
+  color: #fff; }
+
+.module-288 ul.ftr-nav li ul {
+  background: #33526e; }
+
+/**********************************************
+  INSIDE PAGE COLOR SETTINGS
+***********************************************/
+/**********************************************
+  AMP COLOR SETTINGS
+***********************************************/
+/* ------- END COLOR-SCHEME ------- */

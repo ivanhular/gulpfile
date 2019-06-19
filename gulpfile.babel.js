@@ -67,12 +67,92 @@ var project = {
       compileAmp:false,
       folderName:'CUSTOM BUILD/ofirorthodontics.com'
   },
-  1: {
+  0: {
       //BASE SITE STRUCTURE
       projectName:"spineclinicsalem.com",
       proxy:"https://admin.roya.com/sites/Site-922699a4-4977-449c-9058-0eabb8a686f8",
       compileAmp:false,
-      folderName:'CUSTOM BUILD/spineclinicsalem.com'
+      folderName:'CUSTOM BUILD/spineclinicsalem.com',
+      targetFile:"",
+  },
+  0: {
+      //BASE SITE STRUCTURE
+      projectName:"tbd.com",
+      proxy:"https://admin.roya.com/sites/Site-672a2122-43d4-4392-b9a9-32dd9ae0fe83",
+      compileAmp:true,
+      folderName:'CUSTOM BUILD/tbd.com',
+      targetFile:"",
+  },
+  0: {
+      //BASE SITE STRUCTURE
+      projectName:"www.eyesonyoupc.com",
+      proxy:"https://admin.roya.com/sites/Site-ea3b0dd6-be5c-4fd7-a80f-149cd5324fd5",
+      compileAmp:false,
+      folderName:'CUSTOM BUILD/eyesonyoupc.com',
+      targetFile:"",
+      setOveride:{
+          localCSSname:"main.css",
+          targetOverideCSSname:"ivan_overrides.css",
+      }
+  },
+  0: {
+      //BASE SITE STRUCTURE
+      projectName:"OPTO 3",
+      proxy:"https://admin.roya.com/sites/Site-f7ff2955-3dd9-4b47-a54e-c9cde18b78d6",
+      compileAmp:false,
+      folderName:'BASE SITE SASS/OPTO/OPTO THEME 3',
+      targetFile:"",
+  },
+  0: {
+      //BASE SITE STRUCTURE
+      projectName:"www.usasportsmed.com",
+      proxy:"https://admin.roya.com/sites/Site-88bd55f7-f53b-4e55-bb8f-a6527d90367d",
+      compileAmp:false,
+      folderName:'CUSTOM BUILD/usasportsmed.com',
+      targetFile:"",
+  },
+  0: {
+      //BASE SITE STRUCTURE
+      projectName:"www.drrandallperry.com",
+      proxy:"https://admin.roya.com/sites/Site-bbcf0839-36fc-4cd5-826a-b5b1e005b620",
+      compileAmp:false,
+      folderName:'CUSTOM BUILD/drrandallperry.com',
+      targetFile:"",
+  },
+  1: {
+      //BASE SITE STRUCTURE
+      projectName:"sdar",
+      proxy:"https://admin.roya.com/sites/Site-e5c6dbd4-36ed-4057-8677-0b1eedbcde65",
+      compileAmp:false,
+      folderName:'CUSTOM BUILD/sdar',
+      targetFile:"tools/affiliate-partners",
+      setOveride:{
+          localCSSname:"main.css",
+          targetOverideCSSname:"overide.css",
+      }
+  },
+  0: {
+      //BASE SITE STRUCTURE
+      projectName:"goldengatedentist.com",
+      proxy:"https://admin.roya.com/sites/Site-8a1f07ef-72f0-483d-8fe2-4cef97bca523",
+      compileAmp:true,
+      folderName:'CUSTOM BUILD/goldengatedentist.com',
+  },
+  0: {
+      //BASE SITE STRUCTURE
+      projectName:"dizzinessandheadache.com",
+      proxy:"https://admin.roya.com/sites/Site-3b318919-e2ad-46e1-8ea7-bf85d36627ef",
+      compileAmp:false,
+      targetFile:"about-us",
+      folderName:'CUSTOM BUILD/dizzinessandheadache.com',
+  },
+  0: {
+      //BASE SITE STRUCTURE
+      projectName:"empoweryoursmile.com",
+      proxy:"https://admin.roya.com/sites/Site-320e3004-d2ba-4d8b-876e-8fdabcaef3b7",
+      compileAmp:true,
+      targetFile:"",
+      folderName:'CUSTOM BUILD/empoweryoursmile.com',
   },
 }
 /****************MODIFY THIS SECTION ONLY**********************/

@@ -1,5 +1,5 @@
 /*----------------------------------
-THEME NAME: BASE SITE OPTO THEME 4
+THEME NAME: BASE SITE TEMPLATE
 ----------------------------------*/
 /* ------- START DEFAULT.CSS ------- */
 /* DEFAULT v2.0 */
@@ -56,7 +56,7 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-body, .ry-form input[type="text"], .ry-form select, .ry-form textarea, .ry-btn, #menu_container .mm-listview li a {
+body, .ry-form input[type="text"], .ry-form select, .ry-form textarea, .ry-btn {
   font-family: 'Montserrat', sans-serif; }
 
 /************  GLOBAL DEFAULTS  **************/
@@ -174,7 +174,6 @@ body {
       width: 100%;
       max-width: 300px;
       width: auto;
-      display: block;
       margin: 0 auto; } }
   body div {
     text-align: justify;
@@ -1203,6 +1202,9 @@ body {
     @media (max-width: 1199px) {
       .ry-list-wrp .ry-list-item .ry-btn-container {
         text-align: center; } }
+    @media (max-width: 1199px) {
+      .ry-list-wrp .ry-list-item .ry-btn-container .ry-btn {
+        margin: 0 auto; } }
 
 .no-result {
   display: none; }
@@ -1350,6 +1352,7 @@ body {
     .mobile-container .mobile-nav button {
       padding: 0;
       outline: 0;
+      color: #ffffff;
       font-size: 24px; }
       .mobile-container .mobile-nav button .hamburger-box {
         width: 35px; }
@@ -1637,7 +1640,8 @@ body {
           margin-bottom: 10px;
           list-style-type: none; }
     #ry-sidebar .ry-link-wrp .ry-link-item a {
-      font-size: calc(16px + 2 * ((100vw - 500px) / 940)); }
+      font-size: calc(16px + 2 * ((100vw - 500px) / 940));
+      text-align: left; }
       @media screen and (max-width: 500px) {
         #ry-sidebar .ry-link-wrp .ry-link-item a {
           font-size: 16px; } }

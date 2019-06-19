@@ -7,34 +7,34 @@
   NOTE: This class is used for extension
   e.g @extend .primary-c;
 ***********************************************/
-.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, body ul.pagination li:before, body ol.pagination li:before, #ry-sidebar .ry-sb-title, #ry-sidebar #accordion .ry-drop-nav ul {
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, body ul.pagination li:before, body ol.pagination li:before, #ry-sidebar .ry-sb-title, .ry-btn.ry-btn-secondary:hover, #ry-sidebar #accordion .ry-drop-nav ul, #ry-section-header.fixed, .module-44 .ry-social li a.fa:hover {
   background: #333333; }
 
 .primary-bga {
   background: rgba(51, 51, 51, 0.8); }
 
-.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, .module-67 .ry-container #about .ry-section-title, #ry-sidebar #searchfield button, .module-69 .ry-each-right .ry-section-title {
+.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, #ry-sidebar #searchfield button {
   color: #333333; }
 
-.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu, .module-43 .ry-right .ry-leads .ry-address li .contact__overlay, .module-43 .ry-right .ry-leads .ry-contact li .contact__overlay, .module-66 .ry-arrow__down .arrow__wrapper, .module-70 .ry-each.ry-each-1, #ry-sidebar .ry-link-wrp .ry-link-item.active, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2), .module-43 .ry-right .ry-leads .ry-contact li .contact__icon .icon__wrap, .module-23 .ry-icon-wrp {
+.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, .module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu, .module-43 .ry-right .ry-leads .ry-address li .contact__overlay, .module-43 .ry-right .ry-leads .ry-contact li .contact__overlay, .module-66 .ry-arrow__down .arrow__wrapper, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary, #ry-sidebar .ry-link-wrp .ry-link-item.active, #ry-sidebar .ry-sb-cta .ry-btn, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2), .module-43 .ry-right .ry-leads .ry-contact li .contact__icon .icon__wrap, .module-44, .module-315 .ry-each:nth-child(2), .module-23 .ry-icon-wrp {
   background: #872525; }
 
 .secondary-bga {
   background: rgba(135, 37, 37, 0.8); }
 
-.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .module-43 .ry-right .ry-menu .nav-menu li a:hover, .module-44 .ry-flex .ry-each a:hover, .module-67 .ry-container #about .ry-section-title span, #ry-pg-body .ry-left h1, #ry-pg-body .ry-left h2, #ry-pg-body .ry-left h3, #ry-pg-body .ry-left a, .module-44.style2 .ry-flex .ry-each a:hover {
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .module-43 .ry-right .ry-menu .nav-menu li a:hover, #ry-pg-body .ry-left h1, #ry-pg-body .ry-left h2, #ry-pg-body .ry-left h3, #ry-pg-body .ry-left h4, #ry-pg-body .ry-left h5, #ry-pg-body .ry-left h6, #ry-pg-body .ry-left a, .module-316 .ry-right .name {
   color: #872525; }
 
-.tertiary-bg, .mobile-container, .mobile-container.fixed, body.default .module-43, .ry-btn.ry-btn-primary, .module-44, .module-44 .social-icons .social-inner-wrap {
+.tertiary-bg, .mobile-container, .mobile-container.fixed, body.default .module-43, .ry-btn.ry-btn-primary {
   background: #333333; }
 
 .tertiary-bga {
   background: rgba(51, 51, 51, 0.8); }
 
-.tertiary-c, .module-43 .ry-right .ry-leads .ry-address li span.call_us, .module-43 .ry-right .ry-leads .ry-address li a, .module-43 .ry-right .ry-leads .ry-contact li span.call_us, .module-43 .ry-right .ry-leads .ry-contact li a, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(1) a {
+.tertiary-c, .module-43 .ry-right .ry-leads .ry-address li span.call_us, .module-43 .ry-right .ry-leads .ry-address li a, .module-43 .ry-right .ry-leads .ry-contact li span.call_us, .module-43 .ry-right .ry-leads .ry-contact li a, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(1) a, .module-67 .ry-heading-wrp .ry-heading, .module-44 .ry-hrs-wrap .ry-title, .module-44 .ry-open-hrs .day, .module-44 .ry-open-hrs .time, .module-44 .ry-social li a, .module-44 .ry-footer-copyright p, .module-44 .ry-footer-copyright a, .module-315 .ry-title a, .module-316 .ry-heading-wrp .ry-heading, .module-317 .ry-heading-wrp .ry-heading {
   color: #333333; }
 
-.gray, .ry-tabs .nav-tabs li a {
+.gray, .ry-tabs .nav-tabs li a, .module-67 .ry-text p, .module-316 .ry-text, .module-317 .ry-text {
   color: #666666; }
 
 .gray-bg {
@@ -49,16 +49,16 @@
 body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, body, .module-24 .ry-each h5 {
   color: #666666; }
 
-.ry-btn.ry-btn-light, #ry-sidebar .ry-sb-cta .ry-btn, #ry-sidebar .ry-contact-table .ry-row .ry-btn:hover {
+.ry-btn.ry-btn-light, #ry-sidebar .ry-contact-table .ry-row .ry-btn:hover {
   background: #872525; }
 
 .ry-btn {
   background: #333333; }
 
-.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .module-43 .ry-right .ry-menu .nav-menu li a, .module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu li a, .module-43.style2 .ry-right .ry-menu .nav-menu li a, .module-43.style2 .ry-right .ry-menu .nav-menu li .dropdown-menu li a, .module-44 .ry-flex .ry-each a, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar #accordion .ry-drop-nav ul li a, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) span.call_us, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) a, .module-44, .module-44 .ry-footer-copyright, .module-44 .ry-footer-copyright p, .module-44 .ry-footer-copyright a, .module-66 .bnr-textbox .ry-text {
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .module-43 .ry-right .ry-menu .nav-menu li a, .module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu li a, .module-43.style2 .ry-right .ry-menu .nav-menu li a, .module-43.style2 .ry-right .ry-menu .nav-menu li .dropdown-menu li a, .ry-btn.ry-btn-secondary:hover, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-pg-body .ry-left .ry-btn, #ry-sidebar #accordion .ry-drop-nav ul li a, #ry-sidebar .ry-sb-cta .ry-btn:hover, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) span.call_us, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) a, .module-66 .bnr-textbox .ry-text, .module-44 .ry-info .ry-title h2, .module-44 .ry-info .address, .module-44 .ry-info .phone:after, .module-44 .ry-info .phone a, .module-44 .ry-info .email, .module-44 .ry-info .appointment, .module-44 .ry-info .appointment a, .module-44 .ry-social li a:hover, .module-315 .ry-each:nth-child(2) .ry-title a {
   color: #fff; }
 
-.mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .white-bg, .module-66 .ry-arrow__down .arrow__wrapper .arrow__inner, #ry-sidebar #accordion .ry-drop-nav.open, .module-43 .ry-right .ry-leads .ry-contact li, .module-23 .ry-each {
+.mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .white-bg, #ry-sidebar #accordion .ry-drop-nav.open, .module-43 .ry-right .ry-leads .ry-contact li, .module-44 .ry-hrs-wrap, .module-44 .ry-social li a.fa, .module-44 .ry-footer-copyright, .module-23 .ry-each {
   background: #fff; }
 
 .white-bga {
@@ -91,9 +91,6 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   color: #872525; }
 
 /* footer */
-.module-44 .ry-divisor, .module-44 .ry-footer-copyright .ry-container {
-  border-top: 2px solid #484848; }
-
 /* hero */
 .module-66 .bnr-textbox .ry-sub-heading, .module-66 .bnr-textbox .ry-section-title {
   color: #fff; }
@@ -112,48 +109,13 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
 
 /* welcome */
 /* welcome style 2*/
-.module-67.style2 .ry-container #about .ry-section-title {
-  color: #333333; }
-  .module-67.style2 .ry-container #about .ry-section-title span {
-    color: #872525; }
-
 /* team */
-.module-69 {
-  background: #fff; }
-
 /* team style 2 */
-.module-69.style2 .ry-each-left .ry-section-title, .module-69.style2 .ry-each-right .ry-section-title {
-  color: #333333; }
-
-.module-69.style2:before {
-  background-color: rgba(135, 37, 37, 0.6); }
-
 /* services */
-.module-68 .ry-content .ry-each:hover:before {
-  border-color: #872525; }
-
 /* services style 2 */
-.module-68.style2 .ry-content .ry-each:hover:before {
-  border-color: #872525; }
-
 /* map */
-.module-70 .ry-each.ry-each-1 .ry-section-title {
-  color: #fff; }
-
 /* map style 2 */
-.module-70.style2 .ry-each.ry-each-1 {
-  background: #fff; }
-
-.module-70.style2 .ry-each.ry-each-1 .ry-section-title, .module-70.style2 .ry-each.ry-each-4 .cmsForm .ry-section-title {
-  color: #333333; }
-
 /* footer style 2*/
-.module-44.style2, .module-44.style2 .social-icons .social-inner-wrap {
-  background-color: #333333; }
-
-.module-44.style2 .ry-flex .ry-each h2 {
-  color: #872525; }
-
 /* style buttons */
 .style2 .ry-btn.ry-btn-primary {
   background-color: #333333; }
