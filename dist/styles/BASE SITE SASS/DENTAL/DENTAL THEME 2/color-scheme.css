@@ -7,11 +7,11 @@
   NOTE: This class is used for extension
   e.g @extend .primary-c;
 ***********************************************/
-.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container, .mobile-container.fixed, body ul.pagination li:before, body ol.pagination li:before, .ry-btn.ry-btn-primary, .module-215 .ry-btn:before, .module-208 .flex-wrap .ry-right .ry-indicator span.active, .ry-icon {
-  background: #555555; }
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container, .mobile-container.fixed, body ul.pagination li:before, body ol.pagination li:before, .ry-btn.ry-btn-primary, .module-215 .ry-btn:before, .module-208 .flex-wrap .ry-right .ry-indicator span.active, .module-221 .flex-wrap .ry-right .ry-indicator span.active, .module-225 .content-bg, .module-225 .ry-content .ry-right, .module-237 .content-bg, .ry-icon {
+  background: #54636c; }
 
 .primary-bga {
-  background: rgba(85, 85, 85, 0.8); }
+  background: rgba(84, 99, 108, 0.8); }
 
 .primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:before, .ry-btn.ry-btn-secondary:after, .ry-accordion .ry-heading.ui-state-active, .ry-slider-nav .button-prev:after, .ry-slider-nav .button-next:after, .module-208 .flex-wrap .ry-left .top-bar .button-wrap .header-email a:before, .module-208 .flex-wrap .ry-right .header-phone span, .module-209 .ry-heading, .module-209 .ry-text, body h1,
 body h2,
@@ -23,28 +23,28 @@ body h6, .ry-btn:after, #ry-sidebar #accordion .ry-link-item ul a.active, .modul
 .module-1 h3,
 .module-1 h4,
 .module-1 h5,
-.module-1 h6 {
-  color: #555555; }
+.module-1 h6, .ry-instagram .ry-heading, .module-327 .review-box .review-text {
+  color: #54636c; }
 
-.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, .module-208 .flex-wrap .ry-right .header-phone:before, .module-209 .form-group[data-type="submit"] button, .module-212 .content-bg, .module-212 .ry-content .ry-right, .module-211 .ry-content .ry-each .icon-wrap, .module-214, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .address:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .phone:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .email:before, .module-216 .foot-top:before, .module-243 .flex-wrap .ry-each .form-group[data-type="submit"] button, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-primary:active, .ry-btn.ry-btn-primary:focus, .module-23 .ry-icon-wrp, .module-216 .foot-btm .copyright .social-wrapper li:hover a {
-  background: #1c4b82; }
+.secondary-bg, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, .module-43 .ry-right .ry-leads .ry-contact li .contact__overlay, .module-208 .flex-wrap .ry-right .header-phone:before, .module-209 .form-group[data-type="submit"] button, .module-212 .content-bg, .module-212 .ry-content .ry-right, .module-211 .ry-content .ry-each .icon-wrap, .module-214, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .address:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .phone:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .email:before, .module-216 .foot-top:before, .module-243 .flex-wrap .ry-each .form-group[data-type="submit"] button, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-primary:active, .ry-btn.ry-btn-primary:focus, .module-23 .ry-icon-wrp, .module-208 .flex-wrap .ry-right .header-phone:hover, .module-208 .flex-wrap .ry-right .header-phone:active, .module-208 .flex-wrap .ry-right .header-phone:focus, .module-215 .ry-btn:hover, .module-215 .ry-btn:active, .module-215 .ry-btn:focus, .module-215 .ry-btn:hover:before, .module-215 .ry-btn:active:before, .module-215 .ry-btn:focus:before, .module-216 .foot-btm .copyright .social-wrapper li:hover a {
+  background: #515a5f; }
 
 .secondary-bga {
-  background: rgba(28, 75, 130, 0.8); }
+  background: rgba(81, 90, 95, 0.8); }
 
-.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, .module-212 .flex-top .flex-title .ry-heading, .module-211 .ry-heading, .module-211 .ry-content .desc-wrap, .module-227 .ry-content .desc-wrap, .module-213 .content-wrap .ry-heading, .module-213 .content-wrap .ry-text, .module-214 .slider-wrap .ry-heading, .module-215 .ry-heading, .module-215 .ry-text, .module-240 .ry-text, .module-216 .foot-btm .copyright, .module-243 .foot-btm .copyright, .module-209 .ry-heading, .module-224 .ry-heading, .module-225 .flex-top .flex-title .ry-heading, .module-227 .ry-heading, .module-236 .content-wrap .ry-heading, .module-237 .ry-heading, .module-240 .ry-heading, .module-216 .foot-btm .powered-by span, .module-243 .foot-btm .powered-by span {
-  color: #1c4b82; }
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, .module-43 .ry-right .ry-menu .nav-menu li a:hover, .module-43.ry-sticky-menu.fixed .ry-menu .nav-menu li a:hover, .module-212 .flex-top .flex-title .ry-heading, .module-211 .ry-heading, .module-211 .ry-content .desc-wrap, .module-227 .ry-content .desc-wrap, .module-213 .content-wrap .ry-heading, .module-213 .content-wrap .ry-text, .module-214 .slider-wrap .ry-heading, .module-215 .ry-heading, .module-215 .ry-text, .module-240 .ry-text, .module-216 .foot-btm .copyright, .module-243 .foot-btm .copyright, .module-209 .ry-heading, .module-224 .ry-heading, .module-225 .flex-top .flex-title .ry-heading, .module-227 .ry-heading, .module-236 .content-wrap .ry-heading, .module-237 .ry-heading, .module-240 .ry-heading, .module-327 .review-box h6, .module-327 .review-box a, .module-216 .foot-btm .powered-by span, .module-243 .foot-btm .powered-by span {
+  color: #515a5f; }
 
 .tertiary-bg {
-  background: #183661; }
+  background: #23a670; }
 
 .tertiary-bga {
-  background: rgba(24, 54, 97, 0.8); }
+  background: rgba(35, 166, 112, 0.8); }
 
 .tertiary-c {
-  color: #183661; }
+  color: #23a670; }
 
-.gray, .ry-tabs .nav-tabs li a {
+.gray, .ry-tabs .nav-tabs li a, .module-327 .rating-copy.pg-copy h3 {
   color: #515a5f; }
 
 .gray-bg {
@@ -60,20 +60,20 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   color: #515a5f; }
 
 .ry-modal .ry-text p {
-  background: rgba(85, 85, 85, 0.1); }
+  background: rgba(84, 99, 108, 0.1); }
 
-.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-slider-nav .button-prev:hover:after, .ry-slider-nav .button-next:hover:after, .module-208 .flex-wrap .ry-left .top-bar .button-wrap .ry-social li a, .module-208 .flex-wrap .ry-left .top-bar .button-wrap .req-btn-md a, .module-208 .flex-wrap .ry-left .top-bar .button-wrap .header-email a, .module-208 .flex-wrap .ry-left .ry-menu li a, .module-208 .flex-wrap .ry-left .cta-wrap .ry-heading, .module-208 .flex-wrap .ry-left .cta-wrap .ry-sub-heading, .module-208 .flex-wrap .ry-right .header-phone:before, .module-209 .form-group[data-type="submit"] button, .module-224 .form-group[data-type="submit"] button, .module-212 .ry-content .ry-right .detail, .module-225 .ry-content .ry-right .detail, .module-214 .slider-wrap .ry-slide .dr-name, .module-214 .slider-wrap .ry-slide .details, .module-214 .slider-wrap .ry-slider-nav .button-prev, .module-214 .slider-wrap .ry-slider-nav .button-next, .module-237 .slider-wrap .ry-slide .dr-name, .module-237 .slider-wrap .ry-slide .details, .module-237 .slider-wrap .ry-slider-nav .button-prev, .module-237 .slider-wrap .ry-slider-nav .button-next, .module-216 .flex-wrap .ry-each .form-group[data-type="submit"] button, .module-216 .flex-wrap .ry-each .title, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap, .module-216 .flex-wrap .ry-each.ry-left .open-hrs-wrap, .module-243 .flex-wrap .ry-each .form-group[data-type="submit"] button, .module-243 .flex-wrap .ry-each .title, .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap, .module-243 .flex-wrap .ry-each.ry-left .open-hrs-wrap, .ry-btn, #ry-sidebar .ry-sb-cta .ry-cta-wrp p, #ry-sidebar .social-inner-wrap li a, .ry-btn:after, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .address:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .phone:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .email:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap a,
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-slider-nav .button-prev:hover:after, .ry-slider-nav .button-next:hover:after, .module-43.style2 .ry-right .ry-menu .nav-menu li a, .module-43.style2 .ry-right .ry-menu .nav-menu li .dropdown-menu li a, .module-208 .flex-wrap .ry-left .top-bar .button-wrap .ry-social li a, .module-208 .flex-wrap .ry-left .top-bar .button-wrap .req-btn-md a, .module-208 .flex-wrap .ry-left .top-bar .button-wrap .header-email a, .module-208 .flex-wrap .ry-left .ry-menu li a, .module-208 .flex-wrap .ry-left .cta-wrap .ry-heading, .module-208 .flex-wrap .ry-left .cta-wrap .ry-sub-heading, .module-208 .flex-wrap .ry-right .header-phone:before, .module-209 .form-group[data-type="submit"] button, .module-224 .form-group[data-type="submit"] button, .module-212 .ry-content .ry-right .detail, .module-225 .ry-content .ry-right .detail, .module-214 .slider-wrap .ry-slide .dr-name, .module-214 .slider-wrap .ry-slide .details, .module-214 .slider-wrap .ry-slider-nav .button-prev, .module-214 .slider-wrap .ry-slider-nav .button-next, .module-237 .slider-wrap .ry-slide .dr-name, .module-237 .slider-wrap .ry-slide .details, .module-237 .slider-wrap .ry-slider-nav .button-prev, .module-237 .slider-wrap .ry-slider-nav .button-next, .module-216 .flex-wrap .ry-each .form-group[data-type="submit"] button, .module-216 .flex-wrap .ry-each .title, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap, .module-216 .flex-wrap .ry-each.ry-left .open-hrs-wrap, .module-243 .flex-wrap .ry-each .form-group[data-type="submit"] button, .module-243 .flex-wrap .ry-each .title, .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap, .module-243 .flex-wrap .ry-each.ry-left .open-hrs-wrap, .ry-btn, #ry-sidebar .ry-sb-cta .ry-cta-wrp p, #ry-sidebar .social-inner-wrap li a, .ry-instagram #instafeed .flex-item .overlay:before, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) span.call_us, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) a, .ry-btn:after, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .address:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .phone:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .email:before, .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap a,
 .module-216 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap span, .module-216 .foot-btm .copyright .social-wrapper li:hover a, .module-216 .foot-btm .copyright .social-wrapper li a, .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .address:before, .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .phone:before, .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .email:before, .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap a,
 .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap span {
   color: #fff; }
 
-.white-bg, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .ry-btn.ry-btn-secondary, .ry-slider-nav .button-prev, .ry-slider-nav .button-next, .module-208 .flex-wrap .ry-left .top-bar .button-wrap .header-email a:before, .module-208 .flex-wrap .ry-right .header-phone, .module-208 .flex-wrap .ry-right .ry-indicator span, .module-221 .flex-wrap .ry-right .header-phone, .module-221 .flex-wrap .ry-right .ry-indicator span, .module-213 .flex-content, .module-236 .flex-content, .module-23 .ry-each {
+.white-bg, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .ry-btn.ry-btn-secondary, .ry-slider-nav .button-prev, .ry-slider-nav .button-next, .module-43, .module-208 .flex-wrap .ry-left .top-bar .button-wrap .header-email a:before, .module-208 .flex-wrap .ry-right .header-phone, .module-208 .flex-wrap .ry-right .ry-indicator span, .module-221 .flex-wrap .ry-right .header-phone, .module-221 .flex-wrap .ry-right .ry-indicator span, .module-213 .flex-content, .module-236 .flex-content, .module-23 .ry-each {
   background: #fff; }
 
 .white-bga {
   background: rgba(255, 255, 255, 0.8); }
 
-.black-c {
+.black-c, .module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu li a {
   color: #000; }
 
 .black-bg {
@@ -91,8 +91,130 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
 .ry-slider-nav .button-prev:hover, .ry-slider-nav .button-next:hover {
   background: rgba(255, 255, 255, 0.2); }
 
+/*Classic Header*/
+.module-43 .ry-right .ry-menu .nav-menu li a {
+  color: #000; }
+
+.module-43.ry-sticky-menu.fixed .ry-menu .nav-menu li a {
+  color: #fff; }
+
+.module-43 .ry-right .ry-leads .search-bar-widget .form-control {
+  color: #000; }
+
+.module-43 .ry-right .ry-leads .search-bar-widget .form-control::-webkit-input-placeholder {
+  color: #000 !important; }
+
+.module-43 .ry-right .ry-leads .search-bar-widget .form-control:-ms-input-placeholder {
+  color: #000 !important; }
+
+.module-43 .ry-right .ry-leads .search-bar-widget .form-control::-ms-input-placeholder {
+  color: #000 !important; }
+
+.module-43 .ry-right .ry-leads .search-bar-widget .form-control::placeholder {
+  color: #000 !important; }
+
+.module-43 .ry-right .ry-leads .search-bar-widget .form-control {
+  border: 1px solid #000; }
+
+.module-43 .ry-right .ry-leads .search-bar-widget .btn-primary, .module-43 .ry-right .ry-leads .ry-contact li .contact__icon .icon__wrap {
+  border: 1px solid #000; }
+
+.module-43 .ry-right .ry-leads .search-bar-widget .btn-primary {
+  color: #000; }
+
+.module-43.ry-sticky-menu.fixed .search-bar-widget .form-control {
+  color: #fff; }
+
+.module-43.ry-sticky-menu.fixed .search-bar-widget .form-control::-webkit-input-placeholder {
+  color: #fff !important; }
+
+.module-43.ry-sticky-menu.fixed .search-bar-widget .form-control:-ms-input-placeholder {
+  color: #fff !important; }
+
+.module-43.ry-sticky-menu.fixed .search-bar-widget .form-control::-ms-input-placeholder {
+  color: #fff !important; }
+
+.module-43.ry-sticky-menu.fixed .search-bar-widget .form-control::placeholder {
+  color: #fff !important; }
+
+.module-43.ry-sticky-menu.fixed .search-bar-widget .form-control {
+  border: 1px solid #fff; }
+
+.module-43.ry-sticky-menu.fixed .search-bar-widget .btn-primary {
+  border: 1px solid #fff; }
+
+.module-43.ry-sticky-menu.fixed .search-bar-widget .btn-primary {
+  color: #fff; }
+
+.module-43 .ry-right .ry-leads .ry-contact li {
+  background: rgba(0, 0, 0, 0.1); }
+
+.module-43.ry-sticky-menu.fixed .ry-contact li {
+  background: rgba(255, 255, 255, 0.1); }
+
+.module-43 .ry-right .ry-leads .ry-contact li .contact__icon .fa {
+  color: #000; }
+
+.module-43.ry-sticky-menu.fixed .ry-contact li:nth-child(1) .icon__wrap {
+  border: 1px solid rgba(255, 255, 255, 0.3); }
+
+.module-43.ry-sticky-menu.fixed .ry-contact li:nth-child(1) .icon__wrap i {
+  color: #fff; }
+
+.module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu {
+  background: none; }
+
+.module-43 .ry-right .ry-leads .ry-contact li span.call_us, .module-43 .ry-right .ry-leads .ry-contact li a, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(1) a {
+  color: #000; }
+
+.module-43 .ry-right .ry-leads .ry-contact li:nth-child(1):hover a, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(1):hover span {
+  color: #fff; }
+
+.module-43 .ry-right .ry-leads .ry-contact li:nth-child(1):hover .icon__wrap {
+  border-color: #fff !important; }
+
+.module-43 .ry-right .ry-leads .ry-contact li:nth-child(1):hover .contact__icon .fa {
+  color: #fff !important; }
+
+.module-43.ry-sticky-menu.fixed .ry-contact li:nth-child(1) span.call_us, .module-43.ry-sticky-menu.fixed .ry-contact li:nth-child(1) span a {
+  color: #fff; }
+
+.module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) .icon__wrap {
+  border: 1px solid #fff; }
+
+.module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) .fa {
+  color: #fff !important; }
+
+.module-43 .ry-right .ry-leads .ry-contact li:nth-child(2):hover span {
+  color: #000; }
+
+.module-43 .ry-right .ry-leads .ry-contact li:nth-child(2):hover .icon__wrap {
+  border: 1px solid #000; }
+
+.module-43 .ry-right .ry-leads .ry-contact li:nth-child(2):hover .icon__wrap i {
+  color: #000 !important; }
+
+.module-43.ry-sticky-menu.fixed .ry-contact li:nth-child(2):hover .icon__wrap {
+  border: 1px solid #fff !important; }
+
+.module-43.ry-sticky-menu.fixed .ry-contact li:nth-child(2):hover .icon__wrap i, .module-43.ry-sticky-menu.fixed .ry-contact li:nth-child(2):hover span {
+  color: #fff !important; }
+
+/* header style 2*/
+.module-43.style2 .ry-right .ry-menu .nav-menu li a:hover {
+  color: #515a5f; }
+
+.module-43.style2 .ry-right .ry-menu .nav-menu li .dropdown-menu {
+  background: #515a5f; }
+
+.module-43.style2 .ry-right .ry-leads .ry-contact li .contact__overlay {
+  background-color: #515a5f; }
+
+.module-43.style2 .ry-right .ry-leads .ry-contact li span.call_us {
+  color: #515a5f; }
+
 .module-208 .flex-wrap .ry-left:before {
-  background: rgba(85, 85, 85, 0.8); }
+  background: rgba(84, 99, 108, 0.8); }
 
 .module-208 .flex-wrap .ry-left .top-bar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
@@ -113,10 +235,10 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   color: #555555; }
 
 .module-221 .flex-wrap .ry-left .top-bar .button-wrap .req-btn-md a, .module-221 .flex-wrap .ry-left .top-bar .button-wrap .header-email a {
-  color: #555555; }
+  color: #54636c; }
 
 .module-221 .flex-wrap .ry-left .top-bar .button-wrap .header-email a:before {
-  color: #555555; }
+  color: #54636c; }
 
 .module-221 .flex-wrap .ry-left .top-bar .button-wrap .header-email a:before {
   background: transparent; }
@@ -125,7 +247,7 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   color: #555555; }
 
 .module-221 .flex-wrap .ry-left .cta-wrap .ry-heading {
-  color: #555555; }
+  color: #54636c; }
 
 .module-221 .flex-wrap .ry-left .cta-wrap .ry-sub-heading {
   color: #555555; }
@@ -145,16 +267,13 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   background: transparent; }
 
 .module-221 .flex-wrap .ry-right .header-phone:before {
-  color: #555555; }
+  color: #54636c; }
 
 .module-221 .flex-wrap .ry-right .header-phone span {
   color: #555555; }
 
-.module-221 .flex-wrap .ry-right .ry-indicator span.active {
-  background: #73f5f8; }
-
 .module-209 .form-wrap .name-input:before, .module-209 .form-wrap .email-input:before, .module-209 .form-wrap .phone-input:before {
-  color: rgba(28, 75, 130, 0.4); }
+  color: rgba(81, 90, 95, 0.4); }
 
 .module-209 .form-wrap input[type="text"], .module-209 .form-wrap textarea {
   color: #4e5e66; }
@@ -166,13 +285,13 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   border: 1px solid #d8d8d8; }
 
 .module-224 .ry-heading {
-  color: #555555; }
+  color: #54636c; }
 
 .module-224 .ry-text {
-  color: #1c4b82; }
+  color: #515a5f; }
 
 .module-224 .form-wrap .name-input:before, .module-224 .form-wrap .email-input:before, .module-224 .form-wrap .phone-input:before {
-  color: rgba(28, 75, 130, 0.4); }
+  color: rgba(81, 90, 95, 0.4); }
 
 .module-224 .form-wrap input[type="text"], .module-224 .form-wrap textarea {
   color: #555555; }
@@ -184,34 +303,28 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   border: 1px solid #d8d8d8; }
 
 .module-224 .form-group[data-type="submit"] button {
-  background: #555555; }
+  background: #54636c; }
 
 .module-225 .flex-top .flex-title .ry-heading {
-  color: #555555; }
-
-.module-225 .content-bg {
-  background: #0086c5; }
-
-.module-225 .ry-content .ry-right {
-  background: #0086c5; }
+  color: #54636c; }
 
 .module-211 .ry-content .service-title a {
   color: #4e5e66; }
 
 .module-227 .ry-heading {
-  color: #555555; }
+  color: #54636c; }
 
 .module-227 .ry-content .ry-each .icon-wrap {
   background: #fff; }
 
 .module-227 .ry-content .ry-each .icon-wrap:hover, .module-227 .ry-content .ry-each .icon-wrap:active, .module-227 .ry-content .ry-each .icon-wrap:focus {
-  background: #555555; }
+  background: #54636c; }
 
 .module-227 .ry-content .service-title a {
-  color: #1c4b82; }
+  color: #515a5f; }
 
 .module-236 .content-wrap .ry-heading {
-  color: #555555; }
+  color: #54636c; }
 
 .module-236 .content-wrap .ry-text {
   color: #555555; }
@@ -240,11 +353,8 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
 .module-214 .slider-wrap .ry-slider-nav .button-prev, .module-214 .slider-wrap .ry-slider-nav .button-next {
   background: rgba(255, 255, 255, 0.1); }
 
-.module-237 .content-bg {
-  background: #aeb4ac; }
-
 .module-237 .ry-heading {
-  color: #555555; }
+  color: #54636c; }
 
 .module-237 .slider-wrap .ry-slide .img {
   border: 5px solid #d8d8d8; }
@@ -256,10 +366,10 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   background: #fff; }
 
 .module-237 .slider-wrap .ry-slider-nav .button-prev:hover, .module-237 .slider-wrap .ry-slider-nav .button-next:hover {
-  color: #555555; }
+  color: #54636c; }
 
 .module-240 .ry-heading {
-  color: #555555; }
+  color: #54636c; }
 
 .module-240 .ry-btn {
   background: #555555; }
@@ -268,13 +378,13 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   background: #fff; }
 
 .module-216 .flex-wrap .ry-each.ry-right .email-input:before, .module-216 .flex-wrap .ry-each.ry-right .phone-input:before, .module-216 .flex-wrap .ry-each.ry-right .text-input:before {
-  color: rgba(28, 75, 130, 0.4); }
+  color: rgba(81, 90, 95, 0.4); }
 
 .module-216 .flex-wrap .ry-each.ry-right input[type="text"], .module-216 .flex-wrap .ry-each.ry-right textarea {
   color: #4e5e66; }
 
 .module-216 .flex-wrap .ry-each .form-group[data-type="submit"] button {
-  background: #1c4b82; }
+  background: #515a5f; }
 
 .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .address:before, .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .phone:before, .module-243 .flex-wrap .ry-each.ry-left .inner-flex .info-wrap .email:before {
   background: transparent; }
@@ -283,13 +393,13 @@ body .search-result, body .description, body ul.pagination li > a, body ol.pagin
   background: #fff; }
 
 .module-243 .flex-wrap .ry-each.ry-right .email-input:before, .module-243 .flex-wrap .ry-each.ry-right .phone-input:before, .module-243 .flex-wrap .ry-each.ry-right .text-input:before {
-  color: rgba(28, 75, 130, 0.4); }
+  color: rgba(81, 90, 95, 0.4); }
 
 .module-243 .flex-wrap .ry-each.ry-right input[type="text"], .module-243 .flex-wrap .ry-each.ry-right textarea {
-  color: #1c4b82; }
+  color: #515a5f; }
 
 .module-243 .foot-top:before {
-  background: #555555; }
+  background: #54636c; }
 
 .module-243 .ry-social .social-inner-wrap li a {
   background: none; }

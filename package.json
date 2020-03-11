@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulper": "^0.1.3"
+    "gulper": "^0.1.3",
+    "instafeed.js": "^1.4.1"
   },
   "devDependencies": {
     "autoreload-gulp": "^0.4.1",

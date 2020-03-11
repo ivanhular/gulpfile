@@ -8,37 +8,37 @@
   e.g @extend .primary-c;
 ***********************************************/
 .primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, body ul.pagination li:before, body ol.pagination li:before, .ry-btn, .ry-btn.ry-btn-primary, .pagination li.active > a, .module-273 .ry-each:nth-child(4), #ry-sidebar .ry-sb-title, .ry-btn.ry-btn-secondary:hover, #ry-sidebar #accordion .ry-drop-nav ul, #menu_container {
-  background: #1381a2; }
+  background: #58a901; }
 
 .primary-bga {
-  background: rgba(19, 129, 162, 0.8); }
+  background: rgba(88, 169, 1, 0.8); }
 
-.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, .module-304 .ry-heading, .module-305 .ry-heading, .module-306 .ry-heading, .module-273 .ry-heading, .module-308 .ry-heading, .module-309 .ry-heading, .module-307 .ry-heading, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, body h1, body h2, body h3, body h4, body h5, body h6, #ry-sidebar #searchfield button {
-  color: #1381a2; }
+.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, .module-304 .ry-heading, .module-305 .ry-heading, .module-306 .ry-heading, .module-308 .ry-heading, .module-309 .ry-heading, .module-307 .ry-heading, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, body h1, body h2, body h3, body h4, body h5, body h6, #ry-sidebar #searchfield button, .ry-instagram .ry-heading, .module-327 .review-box .review-text {
+  color: #58a901; }
 
-.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container, .mobile-container.fixed, .ry-btn:hover, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary, .pagination li.active > a:hover, .module-260 .icon-wrap:hover, .module-304 .icon-wrap:hover, .module-273 .ry-each:nth-child(2), .module-307 .ry-details .ry-footer-detail:before, #ry-sidebar .ry-link-wrp .ry-link-item.active, #menu_container .mm-listview li:hover, .module-23 .ry-icon-wrp {
-  background: #ff6e83; }
+.secondary-bg, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container, .mobile-container.fixed, .ry-btn:hover, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary, .pagination li.active > a:hover, .module-260 .icon-wrap:hover, .module-304 .icon-wrap:hover, .module-273 .ry-each:nth-child(2), .module-307 .ry-details .ry-footer-detail:before, #ry-sidebar .ry-link-wrp .ry-link-item.active, #menu_container .mm-listview li:hover, .module-23 .ry-icon-wrp {
+  background: #e45000; }
 
 .secondary-bga, #ry-sidebar #accordion .ry-drop-nav ul li a.active, #ry-sidebar #accordion .ry-drop-nav ul li a:hover {
-  background: rgba(255, 110, 131, 0.8); }
+  background: rgba(228, 80, 0, 0.8); }
 
-.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .module-252 .ry-menu li a:hover, .module-303 .ry-menu li a:hover {
-  color: #ff6e83; }
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .module-252 .ry-menu li a:hover, .module-303 .ry-menu li a:hover, .landing-page #landing-review .rev-title h4, .module-327 .review-box h6, .module-327 .review-box a {
+  color: #e45000; }
 
 .tertiary-bg, .module-260 .item, .module-304 .icon-wrap, .module-273 .ry-each:nth-child(6) {
-  background: #8999a8; }
+  background: #1d1c1c; }
 
 .tertiary-bga {
-  background: rgba(137, 153, 168, 0.8); }
+  background: rgba(29, 28, 28, 0.8); }
 
 .tertiary-c, .module-303 .ry-social .social-inner-wrap li a, .module-303 .input-group-btn i:before {
-  color: #8999a8; }
+  color: #1d1c1c; }
 
-.gray, .ry-tabs .nav-tabs li a, .module-303 .ry-menu li a, .module-304 .ry-text, .module-304 .ry-title a, body.default .site-content.style2 .ry-top-wrp .ry-appointment-btn a, body.default .site-content.style2 .ry-top-wrp .ry-appointment-btn a:before, body.default .site-content.style2 .ry-top-wrp .ry-phone-btn a, .module-304 .ry-top-wrp .ry-appointment-btn a, .module-304 .ry-top-wrp .ry-appointment-btn a:before, .module-304 .ry-top-wrp .ry-phone-btn a, .module-269 .ry-heading, .module-269 .ry-text p, .module-305 .ry-text p, .module-271 .ry-heading, .module-271 .ry-text p, .module-306 .ry-text p, .module-273 .ry-heading, .module-299 .ry-heading, .module-308 .ry-text, .module-300 .ry-tabs .nav-tabs li.active a, .module-300 .ry-tabs .nav-tabs li a, .module-310 .ry-tabs .nav-tabs li.active a, .module-310 .ry-tabs .nav-tabs li a, .module-301 .ry-heading, .module-301 .ry-text, .module-301 .ry-tabs .nav-tabs li.active a, .module-301 .ry-tabs .nav-tabs li a, .module-301 .input-name .form-group:before, .module-301 .input-email .form-group:before, .module-301 .input-message .form-group:before, .module-309 .ry-text, .module-309 .ry-tabs .nav-tabs li.active a, .module-309 .ry-tabs .nav-tabs li a, .module-309 .input-name .form-group:before, .module-309 .input-email .form-group:before, .module-309 .input-message .form-group:before, .module-307 .ry-details .ry-footer-detail a, .module-307 .ry-open-hrs li .day, .module-307 .ry-open-hrs li .time, .module-307 .ry-foot-bottom .ry-left .ry-copyright, .module-307 .ry-foot-bottom .ry-left .ry-copyright a, .module-307 .ry-foot-bottom .ry-right .ry-powered, .ry-search button.btn-primary {
-  color: #84888b; }
+.gray, .ry-tabs .nav-tabs li a, .module-303 .ry-menu li a, .module-304 .ry-text, .module-304 .ry-title a, body.default .site-content.style2 .ry-top-wrp .ry-appointment-btn a, body.default .site-content.style2 .ry-top-wrp .ry-appointment-btn a:before, body.default .site-content.style2 .ry-top-wrp .ry-phone-btn a, .module-304 .ry-top-wrp .ry-appointment-btn a, .module-304 .ry-top-wrp .ry-appointment-btn a:before, .module-304 .ry-top-wrp .ry-phone-btn a, .module-269 .ry-heading, .module-269 .ry-text p, .module-305 .ry-text p, .module-271 .ry-heading, .module-271 .ry-text p, .module-306 .ry-text p, .module-273 .ry-heading, .module-299 .ry-heading, .module-308 .ry-text, .module-300 .ry-tabs .nav-tabs li.active a, .module-300 .ry-tabs .nav-tabs li a, .module-310 .ry-tabs .nav-tabs li.active a, .module-310 .ry-tabs .nav-tabs li a, .module-301 .ry-heading, .module-301 .ry-text, .module-301 .ry-tabs .nav-tabs li.active a, .module-301 .ry-tabs .nav-tabs li a, .module-301 .input-name .form-group:before, .module-301 .input-email .form-group:before, .module-301 .input-message .form-group:before, .module-309 .ry-text, .module-309 .ry-tabs .nav-tabs li.active a, .module-309 .ry-tabs .nav-tabs li a, .module-309 .input-name .form-group:before, .module-309 .input-email .form-group:before, .module-309 .input-message .form-group:before, .module-307 .ry-details .ry-footer-detail a, .module-307 .ry-open-hrs li .day, .module-307 .ry-open-hrs li .time, .module-307 .ry-foot-bottom .ry-left .ry-copyright, .module-307 .ry-foot-bottom .ry-left .ry-copyright a, .module-307 .ry-foot-bottom .ry-right .ry-powered, .ry-search button.btn-primary, .module-327 .rating-copy.pg-copy h3 {
+  color: #333333; }
 
 .gray-bg {
-  background: #84888b; }
+  background: #333333; }
 
 /**********************************************
   STATIC COLOR DECLARATION
@@ -47,19 +47,12 @@
   classes. You can Also ignore it!
 ***********************************************/
 body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, body, .ry-form.ry-form-box input[type="text"], .ry-form.ry-form-box textarea, .module-24 .ry-each h5 {
-  color: #84888b; }
-
-body ul.pagination li:before, body ol.pagination li:before, .ry-btn, .ry-btn.ry-btn-primary {
-  background: transparent; }
+  color: #333333; }
 
 .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after {
-  color: #fff;
-  color: #ff6e83; }
+  color: #fff; }
 
-.ry-btn:hover, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary {
-  background: transparent; }
-
-.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .pagination li.active > a, .pagination li.active > a:hover, .module-252 .ry-menu li a, .module-260 .ry-heading, .module-260 .ry-text, .module-260 .ry-title a, .module-260 .ry-top-wrp .ry-appointment-btn a, .module-260 .ry-top-wrp .ry-appointment-btn a:before, .module-260 .ry-top-wrp .ry-phone-btn a, .module-273 .ry-each .ry-title a, .module-302 .ry-heading, .module-302 .ry-details .ry-footer-detail:before, .module-302 .ry-details .ry-footer-detail a, .module-302 .ry-open-hrs li .day, .module-302 .ry-open-hrs li .time, .module-307 .ry-details .ry-footer-detail:before, #ry-sidebar #accordion .ry-drop-nav ul li a, #ry-sidebar #accordion .ry-drop-nav ul li a.active {
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .pagination li.active > a, .pagination li.active > a:hover, .module-252 .ry-menu li a, .module-260 .ry-heading, .module-260 .ry-text, .module-260 .ry-title a, .module-260 .ry-top-wrp .ry-appointment-btn a, .module-260 .ry-top-wrp .ry-appointment-btn a:before, .module-260 .ry-top-wrp .ry-phone-btn a, .module-273 .ry-each .ry-title a, .module-302 .ry-heading, .module-302 .ry-details .ry-footer-detail:before, .module-302 .ry-details .ry-footer-detail a, .module-302 .ry-open-hrs li .day, .module-302 .ry-open-hrs li .time, .module-307 .ry-details .ry-footer-detail:before, #ry-sidebar #accordion .ry-drop-nav ul li a, #ry-sidebar #accordion .ry-drop-nav ul li a.active, .ry-instagram #instafeed .flex-item .overlay:before {
   color: #fff; }
 
 .white-bg, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .module-260 .icon-wrap, .module-260 .ry-top-wrp .ry-separator, body.default .site-content.style2 .ry-top-wrp .ry-separator, .module-304 .ry-top-wrp .ry-separator, #ry-sidebar #accordion .ry-drop-nav.open, .module-23 .ry-each {
@@ -80,13 +73,6 @@ body ul.pagination li:before, body ol.pagination li:before, .ry-btn, .ry-btn.ry-
 /**********************************************
   HOMEPAGE SECTIONS COLOR SETTINGS
 ***********************************************/
-.ry-btn {
-  border: 4px solid #ff6e83; }
-
-.ry-btn:hover {
-  border: 4px solid #1381a2;
-  color: #1381a2 !important; }
-
 .module-252 {
   background: #1d1c1c; }
 
@@ -112,35 +98,67 @@ body ul.pagination li:before, body ol.pagination li:before, .ry-btn, .ry-btn.ry-
   background: #fff; }
 
 .module-304 .item {
-  background-color: #8999a8; }
+  background-color: #1d1c1c; }
+
+@media (max-width: 1440px) {
+  .module-269 .ry-heading {
+    color: #fff; } }
+
+@media only all and (min-height: 600px) and (max-height: 750px) and (min-width: 992px) and (max-width: 1920px) {
+  .module-269 .ry-heading {
+    color: #fff; } }
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .module-269 .ry-text p {
+    color: #fff; } }
+
+@media only all and (min-height: 600px) and (max-height: 750px) and (min-width: 992px) and (max-width: 1920px) {
+  .module-269 .ry-text p {
+    color: #fff; } }
+
+@media (max-width: 1440px) {
+  .module-271 .ry-heading {
+    color: #fff; } }
+
+@media only all and (min-height: 600px) and (max-height: 750px) and (min-width: 992px) and (max-width: 1920px) {
+  .module-271 .ry-heading {
+    color: #fff; } }
+
+@media (max-width: 1440px) {
+  .module-271 .ry-text p {
+    color: #fff; } }
+
+@media only all and (min-height: 600px) and (max-height: 750px) and (min-width: 992px) and (max-width: 1920px) {
+  .module-271 .ry-text p {
+    color: #fff; } }
 
 @media (min-width: 541px) {
   .module-273 .ry-each:nth-child(1) .ry-img-wrap:before {
-    border-right: 30px solid #ff6e83; } }
+    border-right: 30px solid #e45000; } }
 
 @media (max-width: 540px) {
   .module-273 .ry-each:nth-child(1) .ry-img-wrap:before {
-    border-bottom: 45px solid #ff6e83; } }
+    border-bottom: 45px solid #e45000; } }
 
 @media (min-width: 749px) {
   .module-273 .ry-each:nth-child(3) .ry-img-wrap:before {
-    border-bottom: 45px solid #8999a8; } }
+    border-bottom: 45px solid #1d1c1c; } }
 
 @media screen and (min-width: 541px) and (max-width: 748px) {
   .module-273 .ry-each:nth-child(3) .ry-img-wrap:before {
-    border-right: 30px solid #8999a8; } }
+    border-right: 30px solid #1d1c1c; } }
 
 @media (max-width: 540px) {
   .module-273 .ry-each:nth-child(3) .ry-img-wrap:before {
-    border-bottom: 45px solid #8999a8; } }
+    border-bottom: 45px solid #1d1c1c; } }
 
 @media (min-width: 541px) {
   .module-273 .ry-each:nth-child(5) .ry-img-wrap:before {
-    border-left: 35px solid #1381a2; } }
+    border-left: 35px solid #58a901; } }
 
 @media (max-width: 540px) {
   .module-273 .ry-each:nth-child(5) .ry-img-wrap:before {
-    border-bottom: 45px solid #1381a2; } }
+    border-bottom: 45px solid #58a901; } }
 
 .module-299 {
   background: #ededed; }
@@ -149,19 +167,13 @@ body ul.pagination li:before, body ol.pagination li:before, .ry-btn, .ry-btn.ry-
   background: #bebebe; }
 
 .module-308 {
-  background: #ededed;
-  background: #fff; }
+  background: #ededed; }
 
 .module-308 .ry-name {
-  color: #333333;
-  color: #8999a8; }
+  color: #333333; }
 
 .module-308 .ry-indicator span {
-  background: #bebebe;
-  background: #ccc; }
-
-.module-308 .ry-indicator span.active {
-  background: #8999a8; }
+  background: #bebebe; }
 
 .module-300 .ry-tabs .nav-tabs li a {
   background: none; }
@@ -199,7 +211,7 @@ body ul.pagination li:before, body ol.pagination li:before, .ry-btn, .ry-btn.ry-
 
 @media (max-width: 991px) {
   .module-302 {
-    background: #8999a8; } }
+    background: #1d1c1c; } }
 
 .module-302 .ry-details .ry-footer-detail:before {
   background: rgba(255, 255, 255, 0.2); }
@@ -212,7 +224,7 @@ body ul.pagination li:before, body ol.pagination li:before, .ry-btn, .ry-btn.ry-
 
 @media (max-width: 991px) {
   .module-307 {
-    background: #8999a8; } }
+    background: #1d1c1c; } }
 
 /**********************************************
   INSIDE PAGE COLOR SETTINGS

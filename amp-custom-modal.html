@@ -1,0 +1,38 @@
+<style amp-custom>
+.lightbox{
+        display:none;
+      }
+      .lightbox.show {
+        background: rgba(0,0,0,0.8);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+      }
+      .lightbox h1 {
+        color: white;
+      }
+</style>
+
+<amp-state id="customModal">
+  <script type="application/json">
+  {
+    "show" : 1
+  }
+  </script>
+</amp-state>
+
+<?php
+$lighbox = <<<EOT
+<div  data-amp-bind-class="customModal.show == 0 ? 'lightbox' : 'lightbox show'" class="lightbox show" on="tap:AMP.pushState({customModal: {show: 0 }})" role="button" tabindex="0">
+<h1>Hello World!</h1>
+</div>
+EOT;
+
+echo $lighbox;
+?>

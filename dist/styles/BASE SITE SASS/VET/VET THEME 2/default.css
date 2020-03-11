@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*----------------------------------
 THEME NAME: BASE SITE VET THEME 2
 ----------------------------------*/
@@ -218,7 +220,7 @@ body {
   body .search-result.page {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(189, 189, 189, 0.4);
-    padding: 20px 0; }
+    padding: 25px 0; }
     @media (max-width: 767px) {
       body .search-result.page {
         text-align: center; } }
@@ -950,6 +952,21 @@ body {
           .ry-menu .ry-nav li.dropdown .dropdown-menu.hover li:nth-child(15) {
             -webkit-transition: all ease 200ms 1500ms;
             transition: all ease 200ms 1500ms; }
+          .ry-menu .ry-nav li.dropdown .dropdown-menu.hover li:nth-child(16) {
+            -webkit-transition: all ease 200ms 1600ms;
+            transition: all ease 200ms 1600ms; }
+          .ry-menu .ry-nav li.dropdown .dropdown-menu.hover li:nth-child(17) {
+            -webkit-transition: all ease 200ms 1700ms;
+            transition: all ease 200ms 1700ms; }
+          .ry-menu .ry-nav li.dropdown .dropdown-menu.hover li:nth-child(18) {
+            -webkit-transition: all ease 200ms 1800ms;
+            transition: all ease 200ms 1800ms; }
+          .ry-menu .ry-nav li.dropdown .dropdown-menu.hover li:nth-child(19) {
+            -webkit-transition: all ease 200ms 1900ms;
+            transition: all ease 200ms 1900ms; }
+          .ry-menu .ry-nav li.dropdown .dropdown-menu.hover li:nth-child(20) {
+            -webkit-transition: all ease 200ms 2000ms;
+            transition: all ease 200ms 2000ms; }
     .ry-menu .ry-nav li.dropdown:hover ul {
       display: block; }
     .ry-menu .ry-nav li .dropdown-toggle {
@@ -1319,6 +1336,21 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   margin: 40px 0; }
+
+.ry-sticky-menu {
+  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; }
+  .ry-sticky-menu.fixed {
+    position: fixed;
+    z-index: 99999;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 0; }
+    .ry-sticky-menu.fixed .ry-menu .ry-nav li.primary {
+      -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+      padding: 0; }
+    .ry-sticky-menu.fixed .ry-menu .ry-nav li .dropdown-menu.hover {
+      top: 30px; }
 
 /* ---- MOBILE ---- */
 /* ---- MOBILE ---- */

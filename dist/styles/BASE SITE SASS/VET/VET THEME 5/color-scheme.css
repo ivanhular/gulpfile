@@ -7,34 +7,34 @@
   NOTE: This class is used for extension
   e.g @extend .primary-c;
 ***********************************************/
-.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, .module-82 .ry-sub-heading:after, .module-137 .ry-sub-heading:after, .module-86 .ry-heading-wrp .ry-sub-heading:after, .module-134 .ry-heading-wrp .ry-sub-heading:after, .module-87 .ry-sub-heading:after, .module-88 .ry-sub-heading:after, .module-135 .ry-sub-heading:after, .module-89 .ry-sub-heading:after, .module-136 .ry-sub-heading:after, .module-82 .ry-content-bg .ry-right, .module-89 .ry-promo-wrp span:before, .module-136 .ry-promo-wrp span:before, .ry-btn.ry-btn-secondary:hover {
-  background: #487d21; }
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, .module-82 .ry-sub-heading:after, .module-137 .ry-sub-heading:after, .module-86 .ry-heading-wrp .ry-sub-heading:after, .module-134 .ry-heading-wrp .ry-sub-heading:after, .module-87 .ry-sub-heading:after, .module-88 .ry-sub-heading:after, .module-135 .ry-sub-heading:after, .module-89 .ry-sub-heading:after, .module-136 .ry-sub-heading:after, .module-82 .ry-content-bg .ry-right, .module-89 .ry-promo-wrp span:before, .module-136 .ry-promo-wrp span:before, .ry-btn.ry-btn-secondary:hover, .module-326 .ry-btn-container .ry-btn {
+  background: #abb825; }
 
 .primary-bga {
-  background: rgba(72, 125, 33, 0.8); }
+  background: rgba(171, 184, 37, 0.8); }
 
-.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, .module-136 .ry-promo-wrp, .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6 {
-  color: #487d21; }
+.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, .module-136 .ry-promo-wrp, .module-1 h1, .module-1 h2, .module-1 h3, .module-1 h4, .module-1 h5, .module-1 h6, .ry-instagram .ry-heading, .module-327 .review-box .review-text {
+  color: #abb825; }
 
-.secondary-bg, #ry-sidebar .ry-contact-table .ry-row .ry-social .social-inner-wrap li a, #ry-sidebar .social-inner-wrap li a, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container, .mobile-container.fixed, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, body ul.pagination li:before, body ol.pagination li:before, .ry-btn.ry-btn-primary, .module-81 .ry-cta-wrp .ry-cta-title:after, .module-132 .ry-indicator span.active, .module-80 .ry-req-btn.laptop-btn a, .module-87 .ry-each:hover .ry-service-title, .module-135 .ry-indicator span.active, .module-136, #ry-sidebar .ry-sb-title, .ry-btn.ry-btn-primary:hover, #ry-sidebar #searchfield button, .module-23 .ry-icon-wrp {
-  background: #edcf41; }
+.secondary-bg, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container, .mobile-container.fixed, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, body ul.pagination li:before, body ol.pagination li:before, .ry-btn.ry-btn-primary, .module-43 .ry-right .ry-leads .ry-contact li .contact__overlay, .module-81 .ry-cta-wrp .ry-cta-title:after, .module-132 .ry-indicator span.active, .module-80 .ry-req-btn.laptop-btn a, .module-87 .ry-each:hover .ry-service-title, .module-135 .ry-indicator span.active, .module-136, #ry-sidebar .ry-sb-title, .ry-btn.ry-btn-primary:hover, #ry-sidebar #searchfield button, .module-23 .ry-icon-wrp, .module-326 .ry-right {
+  background: #ff5651; }
 
 .secondary-bga {
-  background: rgba(237, 207, 65, 0.8); }
+  background: rgba(255, 86, 81, 0.8); }
 
-.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .module-81 .ry-heading-wrp .ry-heading, .module-81 .ry-cta-wrp .ry-cta-item:hover .ry-cta-title, .module-132 .ry-cta-wrp .ry-cta-item:hover .ry-cta-title, .module-85 .ry-each:hover .ry-cta-title a, .module-133 .ry-each:hover .ry-cta-title a, .module-89 .ry-promo-wrp {
-  color: #edcf41; }
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .module-43 .ry-right .ry-menu .nav-menu li a:hover, .module-81 .ry-heading-wrp .ry-heading, .module-81 .ry-cta-wrp .ry-cta-item:hover .ry-cta-title, .module-132 .ry-cta-wrp .ry-cta-item:hover .ry-cta-title, .module-85 .ry-each:hover .ry-cta-title a, .module-133 .ry-each:hover .ry-cta-title a, .module-89 .ry-promo-wrp, .module-327 .review-box h6, .module-327 .review-box a {
+  color: #ff5651; }
 
-.tertiary-bg, .ry-btn.ry-btn-secondary, .module-80 .ry-nav button .hamburger-inner, .module-80 .ry-nav button .hamburger-inner:before, .module-80 .ry-nav button .hamburger-inner:after, .module-80 .ry-nav:after, .module-137 .ry-content-wrp .ry-right, .module-86 .ry-indicator span, .module-86 .ry-indicator span.active, .module-134 .ry-indicator span, .module-134 .ry-indicator span.active, .module-136 .ry-right .ry-img:after, .ry-indicator span.active:before {
+.tertiary-bg, .ry-btn.ry-btn-secondary, .module-80 .ry-nav button .hamburger-inner, .module-80 .ry-nav button .hamburger-inner:before, .module-80 .ry-nav button .hamburger-inner:after, .module-80 .ry-nav:after, .module-137 .ry-content-wrp .ry-right, .module-86 .ry-indicator span, .module-86 .ry-indicator span.active, .module-134 .ry-indicator span, .module-134 .ry-indicator span.active, .module-136 .ry-right .ry-img:after, .ry-indicator span.active:before, .module-326 .ry-btn-container .ry-btn:hover {
   background: #5a453a; }
 
 .tertiary-bga {
   background: rgba(90, 69, 58, 0.8); }
 
-.tertiary-c, body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, .module-80 .ry-phone-wrp a, .module-80 .ry-nav:before, .module-131 .ry-phone-wrp a, .module-81 .ry-cta-wrp .ry-cta-title a, .module-132 .ry-cta-wrp .ry-cta-title a, .module-82 .ry-content-wrp .phone a, .module-82 .ry-content-wrp .fax a, .module-82 .ry-footer-btm .ry-powered, .module-137 .ry-content-wrp .phone a, .module-137 .ry-content-wrp .fax a, .module-137 .ry-footer-btm .ry-powered, .module-85 .ry-cta-title a, .module-133 .ry-cta-title a, .module-87 .ry-service-title a, .module-89 .ry-tag-line, .module-89 .ry-month, .module-136 .ry-tag-line, .module-136 .ry-month, body, .module-24 .ry-each h5, .module-81 .ry-heading-wrp .ry-heading span, .module-132 .ry-heading-wrp .ry-heading span, .ry-btn.ry-btn-secondary, .module-132 .ry-heading-wrp .ry-heading, .module-136 .ry-sub-heading, .module-136 .ry-text {
+.tertiary-c, body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, .module-80 .ry-phone-wrp a, .module-80 .ry-nav:before, .module-131 .ry-phone-wrp a, .module-81 .ry-cta-wrp .ry-cta-title a, .module-132 .ry-cta-wrp .ry-cta-title a, .module-82 .ry-content-wrp .phone a, .module-82 .ry-content-wrp .fax a, .module-82 .ry-footer-btm .ry-powered, .module-137 .ry-content-wrp .phone a, .module-137 .ry-content-wrp .fax a, .module-137 .ry-footer-btm .ry-powered, .module-85 .ry-cta-title a, .module-133 .ry-cta-title a, .module-87 .ry-service-title a, .module-89 .ry-tag-line, .module-89 .ry-month, .module-136 .ry-tag-line, .module-136 .ry-month, body, .module-24 .ry-each h5, .module-81 .ry-heading-wrp .ry-heading span, .module-132 .ry-heading-wrp .ry-heading span, .module-132 .ry-heading-wrp .ry-heading, .module-136 .ry-sub-heading, .module-136 .ry-text, .module-82 .ry-content-wrp .address a, .module-137 .ry-content-wrp .address a {
   color: #5a453a; }
 
-.gray, .ry-tabs .nav-tabs li a {
+.gray, .ry-tabs .nav-tabs li a, .module-43 .ry-right .ry-menu .nav-menu li a, .module-43 .ry-right .ry-leads .search-bar-widget .btn-primary, .module-327 .rating-copy.pg-copy h3 {
   color: #7d7171; }
 
 .gray-bg {
@@ -47,26 +47,24 @@
   classes. You can Also ignore it!
 ***********************************************/
 .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after {
-  color: #fff;
-  color: #5a453a; }
+  color: #fff; }
 
 .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-primary:after {
-  color: #fff;
-  color: #5a453a; }
+  color: #fff; }
 
 .ry-btn.ry-btn-secondary {
   color: #fff; }
 
-.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .module-80 .ry-req-btn.laptop-btn a, .module-88 .ry-heading-wrp, .module-135 .ry-heading-wrp, .module-89 .ry-promo-wrp span:before, .module-136 .ry-promo-wrp span:before, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar #searchfield button:before, .module-81 .ry-cta-wrp .ry-cta-title:after, .module-132 .ry-cta-wrp .ry-cta-title:after, .ry-btn {
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .module-43 .ry-right .ry-leads .ry-contact li span.call_us, .module-43 .ry-right .ry-leads .ry-contact li a, .module-43.style2 .ry-right .ry-menu .nav-menu li a, .module-43.style2 .ry-right .ry-menu .nav-menu li .dropdown-menu li a, .module-131 .ry-phone-wrp a, .module-80 .ry-req-btn.laptop-btn a, .module-88 .ry-heading-wrp, .module-135 .ry-heading-wrp, .module-89 .ry-promo-wrp span:before, .module-136 .ry-promo-wrp span:before, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar #searchfield button:before, .ry-instagram #instafeed .flex-item .overlay:before, .module-43.ry-sticky-menu.fixed .ry-menu .nav-menu li a, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) span.call_us, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) a, .module-326 .ry-text-wrap .ry-heading, .module-326 .ry-text-wrap h2, .module-326 .ry-btn-container .ry-btn:hover, .module-81 .ry-cta-wrp .ry-cta-title:after, .module-132 .ry-cta-wrp .ry-cta-title:after, .ry-btn {
   color: #fff; }
 
-.white-bg, .module-86 .ry-indicator span.active:before, .module-134 .ry-indicator span.active:before, .module-88 .ry-middle, .module-135 .ry-middle, .ry-indicator span, .ry-indicator span.active, #ry-pg-banner .ry-bnr-wrp:before, .module-23 .ry-each, .module-82 .ry-content-wrp .ry-right {
+.white-bg, .module-86 .ry-indicator span.active:before, .module-134 .ry-indicator span.active:before, .module-88 .ry-middle, .module-135 .ry-middle, .ry-indicator span, .ry-indicator span.active, #ry-pg-banner .ry-bnr-wrp:before, .module-23 .ry-each, .module-43, .module-326, .module-82 .ry-content-wrp .ry-right {
   background: #fff; }
 
 .white-bga {
   background: rgba(255, 255, 255, 0.8); }
 
-.black-c {
+.black-c, .module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu li a {
   color: #000; }
 
 .black-bg {
@@ -78,8 +76,21 @@
 /**********************************************
   HOMEPAGE SECTIONS COLOR SETTINGS
 ***********************************************/
-.module-82 .ry-sub-heading:after, .module-137 .ry-sub-heading:after, .module-86 .ry-heading-wrp .ry-sub-heading:after, .module-134 .ry-heading-wrp .ry-sub-heading:after, .module-87 .ry-sub-heading:after, .module-88 .ry-sub-heading:after, .module-135 .ry-sub-heading:after, .module-89 .ry-sub-heading:after, .module-136 .ry-sub-heading:after {
-  background: #abb825; }
+.module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu {
+  background: none; }
+
+/* header style 2*/
+.module-43.style2 .ry-right .ry-menu .nav-menu li a:hover {
+  color: #ff5651; }
+
+.module-43.style2 .ry-right .ry-menu .nav-menu li .dropdown-menu {
+  background: #ff5651; }
+
+.module-43.style2 .ry-right .ry-leads .ry-contact li .contact__overlay {
+  background-color: #ff5651; }
+
+.module-43.style2 .ry-right .ry-leads .ry-contact li span.call_us {
+  color: #ff5651; }
 
 .module-131 .ry-nav button .hamburger-inner, .module-131 .ry-nav button .hamburger-inner:before, .module-131 .ry-nav button .hamburger-inner:after {
   background: #fff; }
@@ -139,8 +150,7 @@
   background: rgba(255, 255, 255, 0.8); }
 
 .module-87 .ry-each:hover .ry-service-title a {
-  color: #fff;
-  color: #5a453a; }
+  color: #fff; }
 
 .module-88:after {
   background-color: rgba(90, 69, 58, 0.8); }
@@ -149,16 +159,19 @@
   border: 10px solid #fff; }
 
 .module-135:after {
-  background-color: rgba(72, 125, 33, 0.8); }
+  background-color: rgba(171, 184, 37, 0.8); }
 
 .module-135 .ry-img {
   border: 10px solid #fff; }
 
-.module-136 {
-  background: #fdefac; }
+.module-136 .ry-tag-line {
+  color: #fff; }
 
-.module-136 .ry-promo-wrp span:before {
-  background: #abb825; }
+.module-136 .ry-sub-heading, .module-136 .ry-text {
+  color: #fff; }
+
+.module-136 .ry-month {
+  color: #fff; }
 
 /**********************************************
   INSIDE PAGE COLOR SETTINGS

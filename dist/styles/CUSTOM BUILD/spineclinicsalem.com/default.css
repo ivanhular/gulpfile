@@ -1318,6 +1318,21 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
   margin: 40px 0; }
 
+.ry-sticky-menu {
+  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; }
+  .ry-sticky-menu.fixed {
+    position: fixed;
+    z-index: 99999;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 0; }
+    .ry-sticky-menu.fixed .ry-menu .ry-nav li.primary {
+      -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+      padding: 0; }
+    .ry-sticky-menu.fixed .ry-menu .ry-nav li .dropdown-menu.hover {
+      top: 30px; }
+
 /* ---- MOBILE ---- */
 /* ---- MOBILE ---- */
 #mobileheader {
